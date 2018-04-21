@@ -1,0 +1,1918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="AD14@localhost">
+  <database-model serializer="dbm" rdbms="MSSQL" format-version="4.7">
+    <root id="1">
+      <ServerType>standalone</ServerType>
+    </root>
+    <database id="2" parent="1" name="AD14">
+      <ObjectId>9</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+    </database>
+    <database id="4" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+    </database>
+    <database id="5" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+    </database>
+    <database id="6" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+    </database>
+    <database id="7" parent="1" name="DWDiagnostics">
+      <ObjectId>5</ObjectId>
+    </database>
+    <database id="8" parent="1" name="DWConfiguration">
+      <ObjectId>6</ObjectId>
+    </database>
+    <database id="9" parent="1" name="DWQueue">
+      <ObjectId>7</ObjectId>
+    </database>
+    <database id="10" parent="1" name="ToDoApp">
+      <ObjectId>8</ObjectId>
+    </database>
+    <schema id="11" parent="2" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2018-04-20.03:13:03.107</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="12" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="13" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="14" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <schema id="15" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="16" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="17" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="18" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="19" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="20" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="21" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="22" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="23" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <table id="24" parent="11" name="BienBan">
+      <ObjectId>1730105204</ObjectId>
+      <CreatedTimestamp>2018-03-24.17:25:37.090</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:03:50.833</ModifiedTimestamp>
+    </table>
+    <table id="25" parent="11" name="BienLaiThuPhat">
+      <ObjectId>1934629935</ObjectId>
+      <CreatedTimestamp>2018-04-09.03:03:04.253</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:03:10.103</ModifiedTimestamp>
+    </table>
+    <table id="26" parent="11" name="CanCuBienBan">
+      <ObjectId>782625831</ObjectId>
+      <CreatedTimestamp>2018-03-24.22:10:09.143</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:19:05.683</ModifiedTimestamp>
+    </table>
+    <table id="27" parent="11" name="CanCuQuyetDinh">
+      <ObjectId>158623608</ObjectId>
+      <CreatedTimestamp>2018-03-24.21:31:15.120</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:19:06.257</ModifiedTimestamp>
+    </table>
+    <table id="28" parent="11" name="CanhSatGiaoThong">
+      <ObjectId>523148909</ObjectId>
+      <CreatedTimestamp>2018-04-14.03:13:20.357</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.03:13:22.577</ModifiedTimestamp>
+    </table>
+    <table id="29" parent="11" name="ChungKien">
+      <ObjectId>1026102696</ObjectId>
+      <CreatedTimestamp>2018-03-24.17:06:10.317</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.02:54:29.067</ModifiedTimestamp>
+    </table>
+    <table id="30" parent="11" name="CoQuan">
+      <ObjectId>1074102867</ObjectId>
+      <CreatedTimestamp>2018-03-24.17:07:42.863</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.03:13:22.137</ModifiedTimestamp>
+    </table>
+    <table id="31" parent="11" name="Dieu">
+      <ObjectId>251147940</ObjectId>
+      <CreatedTimestamp>2018-04-14.02:53:32.520</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.02:54:29.333</ModifiedTimestamp>
+    </table>
+    <table id="32" parent="11" name="GiayToTuyThan">
+      <ObjectId>1605580758</ObjectId>
+      <CreatedTimestamp>2018-02-24.18:43:23.840</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:19:04.853</ModifiedTimestamp>
+    </table>
+    <table id="33" parent="11" name="GiayXacThucToChuc">
+      <ObjectId>1733581214</ObjectId>
+      <CreatedTimestamp>2018-02-24.19:23:04.730</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:03:30.733</ModifiedTimestamp>
+    </table>
+    <table id="34" parent="11" name="HanhViViPham">
+      <ObjectId>411148510</ObjectId>
+      <CreatedTimestamp>2018-04-14.02:54:29.170</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.02:54:29.530</ModifiedTimestamp>
+    </table>
+    <table id="35" parent="11" name="HinhAnh">
+      <ObjectId>2062630391</ObjectId>
+      <CreatedTimestamp>2018-04-09.03:19:05.090</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:19:06.250</ModifiedTimestamp>
+    </table>
+    <table id="36" parent="11" name="HinhThucPhatBoSung">
+      <ObjectId>2085582468</ObjectId>
+      <CreatedTimestamp>2018-02-24.21:22:34.050</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.02:54:29.333</ModifiedTimestamp>
+    </table>
+    <table id="37" parent="11" name="KhoanTienPhat">
+      <ObjectId>2053582354</ObjectId>
+      <CreatedTimestamp>2018-02-24.21:10:08.830</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.02:54:29.333</ModifiedTimestamp>
+    </table>
+    <table id="38" parent="11" name="LapBienBan">
+      <ObjectId>770101784</ObjectId>
+      <CreatedTimestamp>2018-03-24.07:30:31.743</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.03:13:22.580</ModifiedTimestamp>
+    </table>
+    <table id="39" parent="11" name="LoaiCanhSat">
+      <ObjectId>2117582582</ObjectId>
+      <CreatedTimestamp>2018-02-24.21:30:40.457</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:19:07.347</ModifiedTimestamp>
+    </table>
+    <table id="40" parent="11" name="LoaiQuyetDinh">
+      <ObjectId>690101499</ObjectId>
+      <CreatedTimestamp>2018-03-24.03:40:04.450</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:19:06.647</ModifiedTimestamp>
+    </table>
+    <table id="41" parent="11" name="LoaiVatBiTamGiu">
+      <ObjectId>1854629650</ObjectId>
+      <CreatedTimestamp>2018-04-09.02:56:24.273</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.02:56:39.470</ModifiedTimestamp>
+    </table>
+    <table id="42" parent="11" name="MinhChung">
+      <ObjectId>590625147</ObjectId>
+      <CreatedTimestamp>2018-03-24.21:50:29.347</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.02:54:29.453</ModifiedTimestamp>
+    </table>
+    <table id="43" parent="11" name="NguoiBiThietHai">
+      <ObjectId>1378103950</ObjectId>
+      <CreatedTimestamp>2018-03-24.17:20:35.363</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:03:59.717</ModifiedTimestamp>
+    </table>
+    <table id="44" parent="11" name="NguoiChungKien">
+      <ObjectId>1106102981</ObjectId>
+      <CreatedTimestamp>2018-03-24.17:08:47.337</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:19:04.643</ModifiedTimestamp>
+    </table>
+    <table id="45" parent="11" name="NguoiDaiDienToChuc">
+      <ObjectId>1070626857</ObjectId>
+      <CreatedTimestamp>2018-03-25.15:32:32.703</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:03:42.470</ModifiedTimestamp>
+    </table>
+    <table id="46" parent="11" name="NguoiViPham">
+      <ObjectId>1170103209</ObjectId>
+      <CreatedTimestamp>2018-03-24.17:11:14.273</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:19:04.737</ModifiedTimestamp>
+    </table>
+    <table id="47" parent="11" name="QuyetDinhXuPhat">
+      <ObjectId>462624691</ObjectId>
+      <CreatedTimestamp>2018-03-24.21:39:19.083</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.03:13:22.383</ModifiedTimestamp>
+    </table>
+    <table id="48" parent="11" name="ThamQuyen">
+      <ObjectId>274100017</ObjectId>
+      <CreatedTimestamp>2018-02-24.23:56:53.950</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.02:54:29.533</ModifiedTimestamp>
+    </table>
+    <table id="49" parent="11" name="ToChucViPham">
+      <ObjectId>1701581100</ObjectId>
+      <CreatedTimestamp>2018-02-24.19:19:55.933</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:03:19.307</ModifiedTimestamp>
+    </table>
+    <table id="50" parent="11" name="TrangThai">
+      <ObjectId>738101670</ObjectId>
+      <CreatedTimestamp>2018-03-24.03:47:45.453</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:19:05.380</ModifiedTimestamp>
+    </table>
+    <table id="51" parent="11" name="VaiTro">
+      <ObjectId>203147769</ObjectId>
+      <CreatedTimestamp>2018-04-12.09:14:04.577</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.03:13:22.010</ModifiedTimestamp>
+    </table>
+    <table id="52" parent="11" name="VatBiTamGiu">
+      <ObjectId>1822629536</ObjectId>
+      <CreatedTimestamp>2018-04-09.02:55:32.550</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:00:34.633</ModifiedTimestamp>
+    </table>
+    <table id="53" parent="11" name="sysdiagrams">
+      <ObjectId>1077578877</ObjectId>
+      <CreatedTimestamp>2018-02-19.18:19:01.130</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-19.18:19:01.130</ModifiedTimestamp>
+    </table>
+    <routine id="54" parent="11" name="fn_diagramobjects">
+      <ObjectId>1221579390</ObjectId>
+      <CreatedTimestamp>2018-02-19.18:19:01.267</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-19.18:19:01.267</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="55" parent="11" name="luachon">
+      <ObjectId>1390627997</ObjectId>
+      <CreatedTimestamp>2018-04-01.15:50:40.970</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-01.15:50:40.970</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="56" parent="11" name="sp_alterdiagram">
+      <ObjectId>1189579276</ObjectId>
+      <CreatedTimestamp>2018-02-19.18:19:01.233</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-19.18:19:01.233</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="57" parent="11" name="sp_creatediagram">
+      <ObjectId>1157579162</ObjectId>
+      <CreatedTimestamp>2018-02-19.18:19:01.227</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-19.18:19:01.227</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="58" parent="11" name="sp_dropdiagram">
+      <ObjectId>1205579333</ObjectId>
+      <CreatedTimestamp>2018-02-19.18:19:01.253</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-19.18:19:01.253</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="59" parent="11" name="sp_helpdiagramdefinition">
+      <ObjectId>1141579105</ObjectId>
+      <CreatedTimestamp>2018-02-19.18:19:01.220</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-19.18:19:01.220</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="60" parent="11" name="sp_helpdiagrams">
+      <ObjectId>1125579048</ObjectId>
+      <CreatedTimestamp>2018-02-19.18:19:01.167</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-19.18:19:01.167</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="61" parent="11" name="sp_renamediagram">
+      <ObjectId>1173579219</ObjectId>
+      <CreatedTimestamp>2018-02-19.18:19:01.230</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-19.18:19:01.230</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="62" parent="11" name="sp_upgraddiagrams">
+      <ObjectId>1061578820</ObjectId>
+      <CreatedTimestamp>2018-02-19.18:19:01.107</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-19.18:19:01.107</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <column id="63" parent="24" name="IdBienBan">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="24" name="IdNguoiViPham">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="65" parent="24" name="IdToChucViPham">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="66" parent="24" name="IdNguoiBiThietHai">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="67" parent="24" name="ThoiGianBatDaoTao">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="24" name="ThoiGianTaoXong">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="24" name="YKienCuaBenViPham">
+      <Position>7</Position>
+      <DataType>nvarchar(max)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="24" name="YKienCuaNguoiChungKien">
+      <Position>8</Position>
+      <DataType>nvarchar(max)|0s</DataType>
+    </column>
+    <column id="71" parent="24" name="YKienCuaNguoiBiThietHai">
+      <Position>9</Position>
+      <DataType>nvarchar(max)|0s</DataType>
+    </column>
+    <column id="72" parent="24" name="BienPhapNganChanVaXuLy">
+      <Position>10</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="24" name="ThoiHanGiaiTrinh">
+      <Position>11</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="74" parent="24" name="HoVaTenNguoiGiaiQuyetGiaiTrinh">
+      <Position>12</Position>
+      <DataType>nvarchar(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="75" parent="24" name="ThoiGianGiaiQuyetVipham">
+      <Position>13</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="76" parent="24" name="DiaDiemGiaiQuyetVipham">
+      <Position>14</Position>
+      <DataType>nvarchar(150 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="77" parent="24" name="BienPhapNganChan">
+      <Position>15</Position>
+      <DataType>nvarchar(max)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="78" parent="24" name="LyDoKhongKyBienBan">
+      <Position>16</Position>
+      <DataType>nvarchar(300 char)|0s</DataType>
+    </column>
+    <column id="79" parent="24" name="IdTrangThai">
+      <Position>17</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="80" parent="24" name="PK_BienBan">
+      <Position>1</Position>
+      <ColNames>IdBienBan</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="81" parent="24" name="PK_BienBan">
+      <ObjectId>1746105261</ObjectId>
+      <CreatedTimestamp>2018-03-24.17:25:37.113</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.17:25:37.113</ModifiedTimestamp>
+      <ColNames>IdBienBan</ColNames>
+      <UnderlyingIndexName>PK_BienBan</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="82" parent="24" name="FK_BienBan_NguoiViPham">
+      <ObjectId>1762105318</ObjectId>
+      <CreatedTimestamp>2018-03-24.17:25:37.113</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.17:25:37.113</ModifiedTimestamp>
+      <ColNames>IdNguoiViPham</ColNames>
+      <RefTableId>1170103209</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>NguoiViPham</RefTableName>
+      <RefKeyName>PK__NguoiViP__3214EC07435882B6</RefKeyName>
+      <RefColNames>IdNguoiViPham</RefColNames>
+    </foreign-key>
+    <foreign-key id="83" parent="24" name="FK_BienBan_ToChucViPham">
+      <ObjectId>1794105432</ObjectId>
+      <CreatedTimestamp>2018-03-24.17:25:37.117</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.17:25:37.117</ModifiedTimestamp>
+      <ColNames>IdToChucViPham</ColNames>
+      <RefTableId>1701581100</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>ToChucViPham</RefTableName>
+      <RefKeyName>PK_ToChucViPham</RefKeyName>
+      <RefColNames>IdToChuc</RefColNames>
+    </foreign-key>
+    <foreign-key id="84" parent="24" name="FK_BienBan_NguoiBiThietHai">
+      <ObjectId>1778105375</ObjectId>
+      <CreatedTimestamp>2018-03-24.17:25:37.117</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.17:25:37.117</ModifiedTimestamp>
+      <ColNames>IdNguoiBiThietHai</ColNames>
+      <RefTableId>1378103950</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>NguoiBiThietHai</RefTableName>
+      <RefKeyName>PK_NguoiBiThietHai</RefKeyName>
+      <RefColNames>IdNguoiBiThietHai</RefColNames>
+    </foreign-key>
+    <foreign-key id="85" parent="24" name="FK_BienBan_TrangThai">
+      <ObjectId>2018106230</ObjectId>
+      <CreatedTimestamp>2018-03-24.21:12:54.660</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.21:12:54.660</ModifiedTimestamp>
+      <ColNames>IdTrangThai</ColNames>
+      <RefTableId>738101670</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>TrangThai</RefTableName>
+      <RefKeyName>PK_TrangThai</RefKeyName>
+      <RefColNames>IdTrangThai</RefColNames>
+    </foreign-key>
+    <column id="86" parent="25" name="IdBienLai">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="87" parent="25" name="IdQuyetDinh">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="88" parent="25" name="ThoiGianNopPhat">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="89" parent="25" name="HoTenNguoiNop">
+      <Position>4</Position>
+      <DataType>nvarchar(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="90" parent="25" name="LyDo">
+      <Position>5</Position>
+      <DataType>nvarchar(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="91" parent="25" name="TongTien">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="92" parent="25" name="PK_BienLaiThuPhat">
+      <Position>1</Position>
+      <ColNames>IdBienLai</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="93" parent="25" name="PK_BienLaiThuPhat">
+      <ObjectId>1950629992</ObjectId>
+      <CreatedTimestamp>2018-04-09.03:03:04.433</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:03:04.433</ModifiedTimestamp>
+      <ColNames>IdBienLai</ColNames>
+      <UnderlyingIndexName>PK_BienLaiThuPhat</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="94" parent="25" name="FK_BienLaiThuPhat_QuyetDinhXuPhat">
+      <ObjectId>1966630049</ObjectId>
+      <CreatedTimestamp>2018-04-09.03:03:04.437</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:03:04.437</ModifiedTimestamp>
+      <ColNames>IdQuyetDinh</ColNames>
+      <RefTableId>462624691</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>QuyetDinhXuPhat</RefTableName>
+      <RefKeyName>PK_QuyetDinhXuPhat</RefKeyName>
+      <RefColNames>IdQuyetDinh</RefColNames>
+    </foreign-key>
+    <column id="95" parent="26" name="IdHinhAnh">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="96" parent="26" name="IdBienBan">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="97" parent="26" name="FK_CanCu_HinhAnh">
+      <ObjectId>2110630562</ObjectId>
+      <CreatedTimestamp>2018-04-09.03:19:05.680</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:19:05.680</ModifiedTimestamp>
+      <ColNames>IdHinhAnh</ColNames>
+      <RefTableId>2062630391</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>HinhAnh</RefTableName>
+      <RefKeyName>PK_HinhAnh_1</RefKeyName>
+      <RefColNames>IdHinhAnh</RefColNames>
+    </foreign-key>
+    <foreign-key id="98" parent="26" name="FK_CanCu_BienBan">
+      <ObjectId>814625945</ObjectId>
+      <CreatedTimestamp>2018-03-24.22:10:09.170</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.22:10:09.170</ModifiedTimestamp>
+      <ColNames>IdBienBan</ColNames>
+      <RefTableId>1730105204</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>BienBan</RefTableName>
+      <RefKeyName>PK_BienBan</RefKeyName>
+      <RefColNames>IdBienBan</RefColNames>
+    </foreign-key>
+    <column id="99" parent="27" name="IdQuyetDinh">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="100" parent="27" name="IdHinhAnh">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="101" parent="27" name="FK_CanCuQuyetDinh_QuyetDinhXuPhat">
+      <ObjectId>574625090</ObjectId>
+      <CreatedTimestamp>2018-03-24.21:39:19.587</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.21:39:19.587</ModifiedTimestamp>
+      <ColNames>IdQuyetDinh</ColNames>
+      <RefTableId>462624691</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>QuyetDinhXuPhat</RefTableName>
+      <RefKeyName>PK_QuyetDinhXuPhat</RefKeyName>
+      <RefColNames>IdQuyetDinh</RefColNames>
+    </foreign-key>
+    <foreign-key id="102" parent="27" name="FK_CanCuQuyetDinh_HinhAnh">
+      <ObjectId>2142630676</ObjectId>
+      <CreatedTimestamp>2018-04-09.03:19:06.233</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:19:06.233</ModifiedTimestamp>
+      <ColNames>IdHinhAnh</ColNames>
+      <RefTableId>2062630391</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>HinhAnh</RefTableName>
+      <RefKeyName>PK_HinhAnh_1</RefKeyName>
+      <RefColNames>IdHinhAnh</RefColNames>
+    </foreign-key>
+    <column id="103" parent="28" name="IdCanhSatGiaoThong">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="104" parent="28" name="HoVaTen">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="105" parent="28" name="NgaySinh">
+      <Position>3</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="106" parent="28" name="HinhAnh">
+      <Position>4</Position>
+      <DataType>varchar(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="107" parent="28" name="ChucVu">
+      <Position>5</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="108" parent="28" name="IdCoQuan">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="109" parent="28" name="TenTaiKhoan">
+      <Position>7</Position>
+      <DataType>varchar(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="110" parent="28" name="MatKhau">
+      <Position>8</Position>
+      <DataType>varchar(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="111" parent="28" name="IdVaiTro">
+      <Position>9</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="112" parent="28" name="PK_CanhSatGiaoThong">
+      <Position>1</Position>
+      <ColNames>IdCanhSatGiaoThong</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="113" parent="28" name="PK_CanhSatGiaoThong">
+      <ObjectId>539148966</ObjectId>
+      <CreatedTimestamp>2018-04-14.03:13:21.980</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.03:13:21.980</ModifiedTimestamp>
+      <ColNames>IdCanhSatGiaoThong</ColNames>
+      <UnderlyingIndexName>PK_CanhSatGiaoThong</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="114" parent="28" name="FK_CanhSatGiaoThong_CoQuan">
+      <ObjectId>571149080</ObjectId>
+      <CreatedTimestamp>2018-04-14.03:13:22.133</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.03:13:22.133</ModifiedTimestamp>
+      <ColNames>IdCoQuan</ColNames>
+      <RefTableId>1074102867</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>CoQuan</RefTableName>
+      <RefKeyName>PK_CoQuan</RefKeyName>
+      <RefColNames>IdCoQuan</RefColNames>
+    </foreign-key>
+    <foreign-key id="115" parent="28" name="CanhSatGiaoThong_VaiTro_IdVaiTro_fk">
+      <ObjectId>555149023</ObjectId>
+      <CreatedTimestamp>2018-04-14.03:13:21.993</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.03:13:21.993</ModifiedTimestamp>
+      <ColNames>IdVaiTro</ColNames>
+      <RefTableId>203147769</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>VaiTro</RefTableName>
+      <RefKeyName>PK__VaiTro__491B115CDD9CAC06</RefKeyName>
+      <RefColNames>IdVaiTro</RefColNames>
+    </foreign-key>
+    <column id="116" parent="29" name="IdNguoiChungKien">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="117" parent="29" name="IdBienBan">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="118" parent="29" name="PK_ChungKien">
+      <Position>1</Position>
+      <ColNames>IdNguoiChungKien
+IdBienBan</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="119" parent="29" name="PK_ChungKien">
+      <ObjectId>395148453</ObjectId>
+      <CreatedTimestamp>2018-04-14.02:54:29.060</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.02:54:29.060</ModifiedTimestamp>
+      <ColNames>IdNguoiChungKien
+IdBienBan</ColNames>
+      <UnderlyingIndexName>PK_ChungKien</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="120" parent="29" name="FK_ChungKien_NguoiChungKien">
+      <ObjectId>1346103836</ObjectId>
+      <CreatedTimestamp>2018-03-24.17:19:49.650</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.17:19:49.650</ModifiedTimestamp>
+      <ColNames>IdNguoiChungKien</ColNames>
+      <RefTableId>1106102981</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>NguoiChungKien</RefTableName>
+      <RefKeyName>PK__NguoiChu__3214EC07842B2A38</RefKeyName>
+      <RefColNames>IdNguoiChungKien</RefColNames>
+    </foreign-key>
+    <foreign-key id="121" parent="29" name="FK_ChungKien_BienBan">
+      <ObjectId>1810105489</ObjectId>
+      <CreatedTimestamp>2018-03-24.17:25:37.337</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.17:25:37.337</ModifiedTimestamp>
+      <ColNames>IdBienBan</ColNames>
+      <RefTableId>1730105204</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>BienBan</RefTableName>
+      <RefKeyName>PK_BienBan</RefKeyName>
+      <RefColNames>IdBienBan</RefColNames>
+    </foreign-key>
+    <column id="122" parent="30" name="IdCoQuan">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="123" parent="30" name="TenCoQuan">
+      <Position>2</Position>
+      <DataType>nvarchar(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="124" parent="30" name="DiaChi">
+      <Position>3</Position>
+      <DataType>nvarchar(150 char)|0s</DataType>
+    </column>
+    <column id="125" parent="30" name="DienThoai">
+      <Position>4</Position>
+      <DataType>nvarchar(15 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="126" parent="30" name="PK_CoQuan">
+      <Position>1</Position>
+      <ColNames>IdCoQuan</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="127" parent="30" name="PK_CoQuan">
+      <ObjectId>1090102924</ObjectId>
+      <CreatedTimestamp>2018-03-24.17:07:42.937</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.17:07:42.937</ModifiedTimestamp>
+      <ColNames>IdCoQuan</ColNames>
+      <UnderlyingIndexName>PK_CoQuan</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="128" parent="31" name="Id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="129" parent="31" name="TenDieu">
+      <Position>2</Position>
+      <DataType>nvarchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="130" parent="31" name="MoTa">
+      <Position>3</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="131" parent="31" name="PK_Dieu">
+      <Position>1</Position>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="132" parent="31" name="PK_Dieu">
+      <ObjectId>267147997</ObjectId>
+      <CreatedTimestamp>2018-04-14.02:53:33.010</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.02:53:33.010</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK_Dieu</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="133" parent="32" name="IdGiayToTuyThan">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="134" parent="32" name="IdNguoiViPham">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="135" parent="32" name="MaSo">
+      <Position>4</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="136" parent="32" name="NgayCap">
+      <Position>5</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="137" parent="32" name="NoiCap">
+      <Position>6</Position>
+      <DataType>nvarchar(150 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="138" parent="32" name="PK_GiayToTuyThan">
+      <Position>1</Position>
+      <ColNames>IdGiayToTuyThan</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="139" parent="32" name="PK_GiayToTuyThan">
+      <ObjectId>1202103323</ObjectId>
+      <CreatedTimestamp>2018-03-24.17:11:45.500</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.17:11:45.500</ModifiedTimestamp>
+      <ColNames>IdGiayToTuyThan</ColNames>
+      <UnderlyingIndexName>PK_GiayToTuyThan</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="140" parent="32" name="FK_GiayToTuyThan_NguoiViPham">
+      <ObjectId>1266103551</ObjectId>
+      <CreatedTimestamp>2018-03-24.17:16:34.113</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.17:16:34.113</ModifiedTimestamp>
+      <ColNames>IdNguoiViPham</ColNames>
+      <RefTableId>1170103209</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>NguoiViPham</RefTableName>
+      <RefKeyName>PK__NguoiViP__3214EC07435882B6</RefKeyName>
+      <RefColNames>IdNguoiViPham</RefColNames>
+    </foreign-key>
+    <column id="141" parent="33" name="IdGiayXacThucToChuc">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="142" parent="33" name="IdToChuc">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="143" parent="33" name="MaSo">
+      <Position>4</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="144" parent="33" name="NgayCap">
+      <Position>5</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="145" parent="33" name="NoiCap">
+      <Position>6</Position>
+      <DataType>nvarchar(150 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="146" parent="33" name="IdNguoiDaiDienToChuc">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="147" parent="33" name="PK_GiayXacThucToChuc">
+      <Position>1</Position>
+      <ColNames>IdGiayXacThucToChuc</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="148" parent="33" name="PK_GiayXacThucToChuc">
+      <ObjectId>1749581271</ObjectId>
+      <CreatedTimestamp>2018-02-24.19:23:04.790</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-24.19:23:04.790</ModifiedTimestamp>
+      <ColNames>IdGiayXacThucToChuc</ColNames>
+      <UnderlyingIndexName>PK_GiayXacThucToChuc</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="149" parent="33" name="FK_GiayXacThucToChuc_ToChucViPham">
+      <ObjectId>1426104121</ObjectId>
+      <CreatedTimestamp>2018-03-24.17:23:08.967</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.17:23:08.967</ModifiedTimestamp>
+      <ColNames>IdToChuc</ColNames>
+      <RefTableId>1701581100</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>ToChucViPham</RefTableName>
+      <RefKeyName>PK_ToChucViPham</RefKeyName>
+      <RefColNames>IdToChuc</RefColNames>
+    </foreign-key>
+    <foreign-key id="150" parent="33" name="FK_GiayXacThucToChuc_NguoiDaiDienToChuc">
+      <ObjectId>1102626971</ObjectId>
+      <CreatedTimestamp>2018-03-25.15:32:33.577</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-25.15:32:33.577</ModifiedTimestamp>
+      <ColNames>IdNguoiDaiDienToChuc</ColNames>
+      <RefTableId>1070626857</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>NguoiDaiDienToChuc</RefTableName>
+      <RefKeyName>PK_NguoiDaiDienToChuc</RefKeyName>
+      <RefColNames>IdNguoiDaiDienToChuc</RefColNames>
+    </foreign-key>
+    <column id="151" parent="34" name="IdHanhVi">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="152" parent="34" name="IdDieu">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="153" parent="34" name="Khoan">
+      <Position>3</Position>
+      <DataType>nvarchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="154" parent="34" name="Diem">
+      <Position>4</Position>
+      <DataType>nvarchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="155" parent="34" name="NoiDung">
+      <Position>5</Position>
+      <DataType>nvarchar(max)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="156" parent="34" name="IdKhoanTienPhat">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="157" parent="34" name="IdHinhThucPhatBoSung">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="158" parent="34" name="ThoiGianGiuXe">
+      <Position>8</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <index id="159" parent="34" name="PK__HanhViVi__3214EC0775B23378">
+      <Position>1</Position>
+      <ColNames>IdHanhVi</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="160" parent="34" name="PK__HanhViVi__3214EC0775B23378">
+      <ObjectId>427148567</ObjectId>
+      <CreatedTimestamp>2018-04-14.02:54:29.330</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.02:54:29.330</ModifiedTimestamp>
+      <ColNames>IdHanhVi</ColNames>
+      <UnderlyingIndexName>PK__HanhViVi__3214EC0775B23378</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="161" parent="34" name="FK_HanhVi_Dieu">
+      <ObjectId>443148624</ObjectId>
+      <CreatedTimestamp>2018-04-14.02:54:29.330</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.02:54:29.330</ModifiedTimestamp>
+      <ColNames>IdDieu</ColNames>
+      <RefTableId>251147940</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Dieu</RefTableName>
+      <RefKeyName>PK_Dieu</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="162" parent="34" name="FK_HanhVi_TienPhat">
+      <ObjectId>459148681</ObjectId>
+      <CreatedTimestamp>2018-04-14.02:54:29.333</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.02:54:29.333</ModifiedTimestamp>
+      <ColNames>IdKhoanTienPhat</ColNames>
+      <RefTableId>2053582354</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>KhoanTienPhat</RefTableName>
+      <RefKeyName>PK__KhoanTie__3214EC0722B924A8</RefKeyName>
+      <RefColNames>IdKhoanTien</RefColNames>
+    </foreign-key>
+    <foreign-key id="163" parent="34" name="FK_HanhVi_PhatBoSung">
+      <ObjectId>475148738</ObjectId>
+      <CreatedTimestamp>2018-04-14.02:54:29.333</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.02:54:29.333</ModifiedTimestamp>
+      <ColNames>IdHinhThucPhatBoSung</ColNames>
+      <RefTableId>2085582468</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>HinhThucPhatBoSung</RefTableName>
+      <RefKeyName>PK_HinhThucPhatBoSung</RefKeyName>
+      <RefColNames>IdHinhThucPhatBoSung</RefColNames>
+    </foreign-key>
+    <column id="164" parent="35" name="IdHinhAnh">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="165" parent="35" name="DuongDan">
+      <Position>2</Position>
+      <DataType>varchar(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="166" parent="35" name="ThoiGianTao">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="167" parent="35" name="DiaDiemChupHinh">
+      <Position>4</Position>
+      <DataType>nvarchar(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="168" parent="35" name="MoTa">
+      <Position>5</Position>
+      <DataType>nvarchar(300 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="169" parent="35" name="BienSoXe">
+      <Position>6</Position>
+      <DataType>nchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="170" parent="35" name="IdTrangThai">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="171" parent="35" name="PK_HinhAnh_1">
+      <Position>1</Position>
+      <ColNames>IdHinhAnh</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="172" parent="35" name="PK_HinhAnh_1">
+      <ObjectId>2078630448</ObjectId>
+      <CreatedTimestamp>2018-04-09.03:19:05.377</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:19:05.377</ModifiedTimestamp>
+      <ColNames>IdHinhAnh</ColNames>
+      <UnderlyingIndexName>PK_HinhAnh_1</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="173" parent="35" name="FK_HinhAnh_TrangThai">
+      <ObjectId>2094630505</ObjectId>
+      <CreatedTimestamp>2018-04-09.03:19:05.377</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:19:05.377</ModifiedTimestamp>
+      <ColNames>IdTrangThai</ColNames>
+      <RefTableId>738101670</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>TrangThai</RefTableName>
+      <RefKeyName>PK_TrangThai</RefKeyName>
+      <RefColNames>IdTrangThai</RefColNames>
+    </foreign-key>
+    <column id="174" parent="36" name="IdHinhThucPhatBoSung">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="175" parent="36" name="NoiDungPhatBoSung">
+      <Position>2</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="176" parent="36" name="PK_HinhThucPhatBoSung">
+      <Position>1</Position>
+      <ColNames>IdHinhThucPhatBoSung</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="177" parent="36" name="PK_HinhThucPhatBoSung">
+      <ObjectId>2101582525</ObjectId>
+      <CreatedTimestamp>2018-02-24.21:22:34.090</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-24.21:22:34.090</ModifiedTimestamp>
+      <ColNames>IdHinhThucPhatBoSung</ColNames>
+      <UnderlyingIndexName>PK_HinhThucPhatBoSung</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="178" parent="37" name="IdKhoanTien">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="179" parent="37" name="SoTienToiThieu">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="180" parent="37" name="SoTienToiDa">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="181" parent="37" name="PK__KhoanTie__3214EC0722B924A8">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>IdKhoanTien</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="182" parent="37" name="PK__KhoanTie__3214EC0722B924A8">
+      <ObjectId>2069582411</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-02-24.21:10:08.833</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-24.21:10:08.833</ModifiedTimestamp>
+      <ColNames>IdKhoanTien</ColNames>
+      <UnderlyingIndexName>PK__KhoanTie__3214EC0722B924A8</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="183" parent="38" name="IdCanhSatGiaoThong">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="184" parent="38" name="IdBienBan">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="185" parent="38" name="FK_LapBienBan_CanhSatGiaoThong">
+      <ObjectId>603149194</ObjectId>
+      <CreatedTimestamp>2018-04-14.03:13:22.577</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.03:13:22.577</ModifiedTimestamp>
+      <ColNames>IdCanhSatGiaoThong</ColNames>
+      <RefTableId>523148909</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>CanhSatGiaoThong</RefTableName>
+      <RefKeyName>PK_CanhSatGiaoThong</RefKeyName>
+      <RefColNames>IdCanhSatGiaoThong</RefColNames>
+    </foreign-key>
+    <foreign-key id="186" parent="38" name="FK_LapBienBan_BienBan">
+      <ObjectId>1826105546</ObjectId>
+      <CreatedTimestamp>2018-03-24.17:25:37.433</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.17:25:37.433</ModifiedTimestamp>
+      <ColNames>IdBienBan</ColNames>
+      <RefTableId>1730105204</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>BienBan</RefTableName>
+      <RefKeyName>PK_BienBan</RefKeyName>
+      <RefColNames>IdBienBan</RefColNames>
+    </foreign-key>
+    <column id="187" parent="39" name="IdLoaiCanhSat">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="188" parent="39" name="TenLoaiCanhSat">
+      <Position>2</Position>
+      <DataType>nvarchar(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="189" parent="39" name="VietTat">
+      <Position>3</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <index id="190" parent="39" name="PK_LoaiCanhSat">
+      <Position>1</Position>
+      <ColNames>IdLoaiCanhSat</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="191" parent="39" name="PK_LoaiCanhSat">
+      <ObjectId>2133582639</ObjectId>
+      <CreatedTimestamp>2018-02-24.21:30:40.470</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-24.21:30:40.470</ModifiedTimestamp>
+      <ColNames>IdLoaiCanhSat</ColNames>
+      <UnderlyingIndexName>PK_LoaiCanhSat</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="192" parent="40" name="IdLoaiQuyetDinh">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="193" parent="40" name="TenLoaiQuyetDinh">
+      <Position>2</Position>
+      <DataType>nvarchar(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="194" parent="40" name="PK_LoaiQuyetDinh">
+      <Position>1</Position>
+      <ColNames>IdLoaiQuyetDinh</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="195" parent="40" name="PK_LoaiQuyetDinh">
+      <ObjectId>706101556</ObjectId>
+      <CreatedTimestamp>2018-03-24.03:40:04.487</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.03:40:04.487</ModifiedTimestamp>
+      <ColNames>IdLoaiQuyetDinh</ColNames>
+      <UnderlyingIndexName>PK_LoaiQuyetDinh</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="196" parent="41" name="IdLoaiVat">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="197" parent="41" name="TenLoai">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="198" parent="41" name="MoTa">
+      <Position>3</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+    </column>
+    <index id="199" parent="41" name="PK_LoaiVatBiTamGiu">
+      <Position>1</Position>
+      <ColNames>IdLoaiVat</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="200" parent="41" name="PK_LoaiVatBiTamGiu">
+      <ObjectId>1870629707</ObjectId>
+      <CreatedTimestamp>2018-04-09.02:56:24.290</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.02:56:24.290</ModifiedTimestamp>
+      <ColNames>IdLoaiVat</ColNames>
+      <UnderlyingIndexName>PK_LoaiVatBiTamGiu</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="201" parent="42" name="IdHinhAnh">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="202" parent="42" name="IdHanhVi">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="203" parent="42" name="PK_MinhChung">
+      <Position>1</Position>
+      <ColNames>IdHinhAnh
+IdHanhVi</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="204" parent="42" name="PK_MinhChung">
+      <ObjectId>926626344</ObjectId>
+      <CreatedTimestamp>2018-03-25.00:03:17.593</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-25.00:03:17.593</ModifiedTimestamp>
+      <ColNames>IdHinhAnh
+IdHanhVi</ColNames>
+      <UnderlyingIndexName>PK_MinhChung</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="205" parent="42" name="FK_MinhChung_HinhAnh">
+      <ObjectId>2126630619</ObjectId>
+      <CreatedTimestamp>2018-04-09.03:19:05.880</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:19:05.880</ModifiedTimestamp>
+      <ColNames>IdHinhAnh</ColNames>
+      <RefTableId>2062630391</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>HinhAnh</RefTableName>
+      <RefKeyName>PK_HinhAnh_1</RefKeyName>
+      <RefColNames>IdHinhAnh</RefColNames>
+    </foreign-key>
+    <foreign-key id="206" parent="42" name="FK_MinhChung_HanhViViPham">
+      <ObjectId>491148795</ObjectId>
+      <CreatedTimestamp>2018-04-14.02:54:29.450</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.02:54:29.450</ModifiedTimestamp>
+      <ColNames>IdHanhVi</ColNames>
+      <RefTableId>411148510</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>HanhViViPham</RefTableName>
+      <RefKeyName>PK__HanhViVi__3214EC0775B23378</RefKeyName>
+      <RefColNames>IdHanhVi</RefColNames>
+    </foreign-key>
+    <column id="207" parent="43" name="IdNguoiBiThietHai">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="208" parent="43" name="HoVaTen">
+      <Position>2</Position>
+      <DataType>nvarchar(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="209" parent="43" name="GioiTinh">
+      <Position>3</Position>
+      <DataType>nvarchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="210" parent="43" name="ChucVu">
+      <Position>4</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <index id="211" parent="43" name="PK_NguoiBiThietHai">
+      <Position>1</Position>
+      <ColNames>IdNguoiBiThietHai</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="212" parent="43" name="PK_NguoiBiThietHai">
+      <ObjectId>1394104007</ObjectId>
+      <CreatedTimestamp>2018-03-24.17:20:35.657</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.17:20:35.657</ModifiedTimestamp>
+      <ColNames>IdNguoiBiThietHai</ColNames>
+      <UnderlyingIndexName>PK_NguoiBiThietHai</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="213" parent="44" name="IdNguoiChungKien">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="214" parent="44" name="HoVaTen">
+      <Position>2</Position>
+      <DataType>nvarchar(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="215" parent="44" name="NgheNghiep">
+      <Position>3</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="216" parent="44" name="ChucVu">
+      <Position>4</Position>
+      <DataType>nvarchar(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="217" parent="44" name="IdCoQuan">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="218" parent="44" name="NoiOHienNay">
+      <Position>6</Position>
+      <DataType>nvarchar(150 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="219" parent="44" name="PK__NguoiChu__3214EC07842B2A38">
+      <Position>1</Position>
+      <ColNames>IdNguoiChungKien</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="220" parent="44" name="PK__NguoiChu__3214EC07842B2A38">
+      <ObjectId>1122103038</ObjectId>
+      <CreatedTimestamp>2018-03-24.17:08:47.343</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.17:08:47.343</ModifiedTimestamp>
+      <ColNames>IdNguoiChungKien</ColNames>
+      <UnderlyingIndexName>PK__NguoiChu__3214EC07842B2A38</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="221" parent="44" name="FK_NguoiChungKien_CoQuan">
+      <ObjectId>1314103722</ObjectId>
+      <CreatedTimestamp>2018-03-24.17:17:52.197</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.17:17:52.197</ModifiedTimestamp>
+      <ColNames>IdCoQuan</ColNames>
+      <RefTableId>1074102867</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>CoQuan</RefTableName>
+      <RefKeyName>PK_CoQuan</RefKeyName>
+      <RefColNames>IdCoQuan</RefColNames>
+    </foreign-key>
+    <column id="222" parent="45" name="IdNguoiDaiDienToChuc">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="223" parent="45" name="HoVaTen">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="224" parent="45" name="GioiTinh">
+      <Position>3</Position>
+      <DataType>nvarchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="225" parent="45" name="ChucVu">
+      <Position>4</Position>
+      <DataType>nvarchar(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="226" parent="45" name="PK_NguoiDaiDienToChuc">
+      <Position>1</Position>
+      <ColNames>IdNguoiDaiDienToChuc</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="227" parent="45" name="PK_NguoiDaiDienToChuc">
+      <ObjectId>1086626914</ObjectId>
+      <CreatedTimestamp>2018-03-25.15:32:33.340</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-25.15:32:33.340</ModifiedTimestamp>
+      <ColNames>IdNguoiDaiDienToChuc</ColNames>
+      <UnderlyingIndexName>PK_NguoiDaiDienToChuc</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="228" parent="46" name="IdNguoiViPham">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="229" parent="46" name="HoVaTen">
+      <Position>2</Position>
+      <DataType>nvarchar(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="230" parent="46" name="GioiTinh">
+      <Position>3</Position>
+      <DataType>nvarchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="231" parent="46" name="NgaySinh">
+      <Position>4</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="232" parent="46" name="QuocTich">
+      <Position>5</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="233" parent="46" name="NgheNghiep">
+      <Position>6</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="234" parent="46" name="NoiOHienNay">
+      <Position>7</Position>
+      <DataType>nvarchar(150 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="235" parent="46" name="HangXeDuocPhepDieuKhien">
+      <Position>8</Position>
+      <DataType>nchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="236" parent="46" name="PK__NguoiViP__3214EC07435882B6">
+      <Position>1</Position>
+      <ColNames>IdNguoiViPham</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="237" parent="46" name="PK__NguoiViP__3214EC07435882B6">
+      <ObjectId>1186103266</ObjectId>
+      <CreatedTimestamp>2018-03-24.17:11:14.310</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.17:11:14.310</ModifiedTimestamp>
+      <ColNames>IdNguoiViPham</ColNames>
+      <UnderlyingIndexName>PK__NguoiViP__3214EC07435882B6</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="238" parent="47" name="IdQuyetDinh">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="239" parent="47" name="IdNguoiViPham">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="240" parent="47" name="IdToChucViPham">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="241" parent="47" name="IdLoaiQuyetDinh">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="242" parent="47" name="IdCanhSatGiaoThong">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="243" parent="47" name="IdBienBan">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="244" parent="47" name="ThoiGianTao">
+      <Position>7</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="245" parent="47" name="DiaDiemTaoBienBan">
+      <Position>8</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="246" parent="47" name="DiaDiemXayRaViPham">
+      <Position>9</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+    </column>
+    <column id="247" parent="47" name="HinhThucXuPhat">
+      <Position>10</Position>
+      <DataType>nvarchar(300 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="248" parent="47" name="MucPhat">
+      <Position>11</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="249" parent="47" name="BienPhapKhacPhucHauQua">
+      <Position>12</Position>
+      <DataType>nvarchar(300 char)|0s</DataType>
+    </column>
+    <column id="250" parent="47" name="ThoiHanKhacPhucHauQua">
+      <Position>13</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="251" parent="47" name="NoiNopTien">
+      <Position>14</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+    </column>
+    <column id="252" parent="47" name="SoTaiKhoan">
+      <Position>15</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="253" parent="47" name="TenKhoBacNhaNuoc">
+      <Position>16</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="254" parent="47" name="TenVatBiTamGiu">
+      <Position>17</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <index id="255" parent="47" name="PK_QuyetDinhXuPhat">
+      <Position>1</Position>
+      <ColNames>IdQuyetDinh</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="256" parent="47" name="PK_QuyetDinhXuPhat">
+      <ObjectId>478624748</ObjectId>
+      <CreatedTimestamp>2018-03-24.21:39:19.367</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.21:39:19.367</ModifiedTimestamp>
+      <ColNames>IdQuyetDinh</ColNames>
+      <UnderlyingIndexName>PK_QuyetDinhXuPhat</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="257" parent="47" name="FK_QuyetDinhXuPhat_NguoiViPham">
+      <ObjectId>526624919</ObjectId>
+      <CreatedTimestamp>2018-03-24.21:39:19.370</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.21:39:19.370</ModifiedTimestamp>
+      <ColNames>IdNguoiViPham</ColNames>
+      <RefTableId>1170103209</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>NguoiViPham</RefTableName>
+      <RefKeyName>PK__NguoiViP__3214EC07435882B6</RefKeyName>
+      <RefColNames>IdNguoiViPham</RefColNames>
+    </foreign-key>
+    <foreign-key id="258" parent="47" name="FK_QuyetDinhXuPhat_ToChucViPham">
+      <ObjectId>558625033</ObjectId>
+      <CreatedTimestamp>2018-03-24.21:39:19.373</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.21:39:19.373</ModifiedTimestamp>
+      <ColNames>IdToChucViPham</ColNames>
+      <RefTableId>1701581100</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>ToChucViPham</RefTableName>
+      <RefKeyName>PK_ToChucViPham</RefKeyName>
+      <RefColNames>IdToChuc</RefColNames>
+    </foreign-key>
+    <foreign-key id="259" parent="47" name="FK_QuyetDinhXuPhat_LoaiQuyetDinh">
+      <ObjectId>494624805</ObjectId>
+      <CreatedTimestamp>2018-03-24.21:39:19.367</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.21:39:19.367</ModifiedTimestamp>
+      <ColNames>IdLoaiQuyetDinh</ColNames>
+      <RefTableId>690101499</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>LoaiQuyetDinh</RefTableName>
+      <RefKeyName>PK_LoaiQuyetDinh</RefKeyName>
+      <RefColNames>IdLoaiQuyetDinh</RefColNames>
+    </foreign-key>
+    <foreign-key id="260" parent="47" name="FK_QuyetDinhXuPhat_CanhSatGiaoThong">
+      <ObjectId>587149137</ObjectId>
+      <CreatedTimestamp>2018-04-14.03:13:22.353</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.03:13:22.353</ModifiedTimestamp>
+      <ColNames>IdCanhSatGiaoThong</ColNames>
+      <RefTableId>523148909</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>CanhSatGiaoThong</RefTableName>
+      <RefKeyName>PK_CanhSatGiaoThong</RefKeyName>
+      <RefColNames>IdCanhSatGiaoThong</RefColNames>
+    </foreign-key>
+    <foreign-key id="261" parent="47" name="FK_QuyetDinhXuPhat_BienBan">
+      <ObjectId>542624976</ObjectId>
+      <CreatedTimestamp>2018-03-24.21:39:19.370</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.21:39:19.370</ModifiedTimestamp>
+      <ColNames>IdBienBan</ColNames>
+      <RefTableId>1730105204</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>BienBan</RefTableName>
+      <RefKeyName>PK_BienBan</RefKeyName>
+      <RefColNames>IdBienBan</RefColNames>
+    </foreign-key>
+    <column id="262" parent="48" name="IdHanhViViPham">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="263" parent="48" name="IdLoaiCanhSat">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="264" parent="48" name="PK_ThamQuyen">
+      <Position>1</Position>
+      <ColNames>IdHanhViViPham
+IdLoaiCanhSat</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="265" parent="48" name="PK_ThamQuyen">
+      <ObjectId>290100074</ObjectId>
+      <CreatedTimestamp>2018-02-24.23:56:53.963</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-24.23:56:53.963</ModifiedTimestamp>
+      <ColNames>IdHanhViViPham
+IdLoaiCanhSat</ColNames>
+      <UnderlyingIndexName>PK_ThamQuyen</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="266" parent="48" name="FK_ThamQuyen_HanhViViPham">
+      <ObjectId>507148852</ObjectId>
+      <CreatedTimestamp>2018-04-14.02:54:29.530</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-14.02:54:29.530</ModifiedTimestamp>
+      <ColNames>IdHanhViViPham</ColNames>
+      <RefTableId>411148510</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>HanhViViPham</RefTableName>
+      <RefKeyName>PK__HanhViVi__3214EC0775B23378</RefKeyName>
+      <RefColNames>IdHanhVi</RefColNames>
+    </foreign-key>
+    <foreign-key id="267" parent="48" name="FK_ThamQuyen_LoaiCanhSat">
+      <ObjectId>846626059</ObjectId>
+      <CreatedTimestamp>2018-03-24.22:13:11.177</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.22:13:11.177</ModifiedTimestamp>
+      <ColNames>IdLoaiCanhSat</ColNames>
+      <RefTableId>2117582582</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>LoaiCanhSat</RefTableName>
+      <RefKeyName>PK_LoaiCanhSat</RefKeyName>
+      <RefColNames>IdLoaiCanhSat</RefColNames>
+    </foreign-key>
+    <column id="268" parent="49" name="IdToChuc">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="269" parent="49" name="TenToChuc">
+      <Position>2</Position>
+      <DataType>nvarchar(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="270" parent="49" name="DiaChiTruSoChinh">
+      <Position>3</Position>
+      <DataType>nvarchar(150 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="271" parent="49" name="MaDoanhNghiep">
+      <Position>4</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="272" parent="49" name="PK_ToChucViPham">
+      <Position>1</Position>
+      <ColNames>IdToChuc</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="273" parent="49" name="PK_ToChucViPham">
+      <ObjectId>1717581157</ObjectId>
+      <CreatedTimestamp>2018-02-24.19:19:55.960</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-24.19:19:55.960</ModifiedTimestamp>
+      <ColNames>IdToChuc</ColNames>
+      <UnderlyingIndexName>PK_ToChucViPham</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="274" parent="50" name="IdTrangThai">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="275" parent="50" name="TenTrangThai">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="276" parent="50" name="Mota">
+      <Position>3</Position>
+      <DataType>nvarchar(150 char)|0s</DataType>
+    </column>
+    <index id="277" parent="50" name="PK_TrangThai">
+      <Position>1</Position>
+      <ColNames>IdTrangThai</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="278" parent="50" name="PK_TrangThai">
+      <ObjectId>1986106116</ObjectId>
+      <CreatedTimestamp>2018-03-24.21:11:13.317</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-24.21:11:13.317</ModifiedTimestamp>
+      <ColNames>IdTrangThai</ColNames>
+      <UnderlyingIndexName>PK_TrangThai</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="279" parent="51" name="IdVaiTro">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="280" parent="51" name="TenVaiTro">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="281" parent="51" name="MoTa">
+      <Position>3</Position>
+      <DataType>nvarchar(100 char)|0s</DataType>
+    </column>
+    <index id="282" parent="51" name="PK__VaiTro__491B115CDD9CAC06">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>IdVaiTro</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="283" parent="51" name="PK__VaiTro__491B115CDD9CAC06">
+      <ObjectId>219147826</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-04-12.09:14:04.877</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-12.09:14:04.877</ModifiedTimestamp>
+      <ColNames>IdVaiTro</ColNames>
+      <UnderlyingIndexName>PK__VaiTro__491B115CDD9CAC06</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="284" parent="52" name="IdVatBiTamGiu">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="285" parent="52" name="IdLoaiVat">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="286" parent="52" name="TenVat">
+      <Position>3</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="287" parent="52" name="DonViTinh">
+      <Position>4</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="288" parent="52" name="SoLuong">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="289" parent="52" name="ChungLoai">
+      <Position>6</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="290" parent="52" name="TinhTrang">
+      <Position>7</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="291" parent="52" name="GhiChu">
+      <Position>8</Position>
+      <DataType>nvarchar(300 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="292" parent="52" name="IdBienBan">
+      <Position>9</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="293" parent="52" name="IdTrangThai">
+      <Position>10</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="294" parent="52" name="PK_VatBiTamGiu">
+      <Position>1</Position>
+      <ColNames>IdVatBiTamGiu</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="295" parent="52" name="PK_VatBiTamGiu">
+      <ObjectId>1838629593</ObjectId>
+      <CreatedTimestamp>2018-04-09.02:55:32.790</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.02:55:32.790</ModifiedTimestamp>
+      <ColNames>IdVatBiTamGiu</ColNames>
+      <UnderlyingIndexName>PK_VatBiTamGiu</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="296" parent="52" name="FK_VatBiTamGiu_LoaiVatBiTamGiu">
+      <ObjectId>1886629764</ObjectId>
+      <CreatedTimestamp>2018-04-09.02:56:39.470</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.02:56:39.470</ModifiedTimestamp>
+      <ColNames>IdLoaiVat</ColNames>
+      <RefTableId>1854629650</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>LoaiVatBiTamGiu</RefTableName>
+      <RefKeyName>PK_LoaiVatBiTamGiu</RefKeyName>
+      <RefColNames>IdLoaiVat</RefColNames>
+    </foreign-key>
+    <foreign-key id="297" parent="52" name="FK_BienBan_TangVat">
+      <ObjectId>1918629878</ObjectId>
+      <CreatedTimestamp>2018-04-09.03:00:34.633</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.03:00:34.633</ModifiedTimestamp>
+      <ColNames>IdBienBan</ColNames>
+      <RefTableId>1730105204</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>BienBan</RefTableName>
+      <RefKeyName>PK_BienBan</RefKeyName>
+      <RefColNames>IdBienBan</RefColNames>
+    </foreign-key>
+    <foreign-key id="298" parent="52" name="FK_VatBiTamGiu_TrangThai">
+      <ObjectId>1902629821</ObjectId>
+      <CreatedTimestamp>2018-04-09.02:56:56.910</CreatedTimestamp>
+      <ModifiedTimestamp>2018-04-09.02:56:56.910</ModifiedTimestamp>
+      <ColNames>IdTrangThai</ColNames>
+      <RefTableId>738101670</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>TrangThai</RefTableName>
+      <RefKeyName>PK_TrangThai</RefKeyName>
+      <RefColNames>IdTrangThai</RefColNames>
+    </foreign-key>
+    <column id="299" parent="53" name="name">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="300" parent="53" name="principal_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="301" parent="53" name="diagram_id">
+      <Position>3</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="302" parent="53" name="version">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="303" parent="53" name="definition">
+      <Position>5</Position>
+      <DataType>varbinary(max)|0s</DataType>
+    </column>
+    <index id="304" parent="53" name="PK__sysdiagr__C2B05B617E57E343">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>diagram_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="305" parent="53" name="UK_principal_name">
+      <Position>2</Position>
+      <ColNames>principal_id
+name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="306" parent="53" name="PK__sysdiagr__C2B05B617E57E343">
+      <ObjectId>1093578934</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-02-19.18:19:01.133</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-19.18:19:01.133</ModifiedTimestamp>
+      <ColNames>diagram_id</ColNames>
+      <UnderlyingIndexName>PK__sysdiagr__C2B05B617E57E343</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="307" parent="53" name="UK_principal_name">
+      <ObjectId>1109578991</ObjectId>
+      <CreatedTimestamp>2018-02-19.18:19:01.147</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-19.18:19:01.147</ModifiedTimestamp>
+      <ColNames>principal_id
+name</ColNames>
+      <UnderlyingIndexName>UK_principal_name</UnderlyingIndexName>
+    </key>
+    <argument id="308" parent="54">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="309" parent="55" name="@IdBB">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="310" parent="56" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="311" parent="56" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="312" parent="56" name="@version">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="313" parent="56" name="@definition">
+      <Position>4</Position>
+      <DataType>varbinary(max)|0s</DataType>
+    </argument>
+    <argument id="314" parent="57" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="315" parent="57" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="316" parent="57" name="@version">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="317" parent="57" name="@definition">
+      <Position>4</Position>
+      <DataType>varbinary(max)|0s</DataType>
+    </argument>
+    <argument id="318" parent="58" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="319" parent="58" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="320" parent="59" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="321" parent="59" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="322" parent="60" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="323" parent="60" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="324" parent="61" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="325" parent="61" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="326" parent="61" name="@new_diagramname">
+      <Position>3</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+  </database-model>
+</dataSource>

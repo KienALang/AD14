@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="AD14:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d4da8e39-c242-418c-9f6c-94902eef3eb8" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/includes/head.jsp" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/controllers/IndexServlet.java" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/IndexServlet.java" />
+        <option value="$PROJECT_DIR$/src/ad14/models/dao/Dao_CanhSatGiaoThong.java" />
+        <option value="$PROJECT_DIR$/src/ad14/models/entities/CanhSatGiaoThong.java" />
+        <option value="$PROJECT_DIR$/src/ad14/utils/JSPLocation.java" />
+        <option value="$PROJECT_DIR$/web/super_admin/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" />
+        <option value="$PROJECT_DIR$/web/admin/index.jsp" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/SuperAdminServlet.java" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" />
+        <option value="$PROJECT_DIR$/web/includes/top_nav.jsp" />
+        <option value="$PROJECT_DIR$/web/includes/top_nav.jsp" />
+        <option value="$PROJECT_DIR$/web/includes/left_nav.jsp" />
+        <option value="$PROJECT_DIR$/web/includes/footer.jsp" />
+        <option value="$PROJECT_DIR$/web/includes/java_script.jsp" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/SuperAdminServlet.java" />
+        <option value="$PROJECT_DIR$/web/admin/index.jsp" />
+        <option value="$PROJECT_DIR$/web/includes/top_nav.jsp" />
+        <option value="$PROJECT_DIR$/web/includes/left_nav.jsp" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" />
+        <option value="$PROJECT_DIR$/web/includes/left_nav.jsp" />
+        <option value="$PROJECT_DIR$/src/ad14/models/dao/Dao_CanhSatGiaoThong.java" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" />
+        <option value="$PROJECT_DIR$/web/bien_ban/index.jsp" />
+        <option value="$PROJECT_DIR$/web/bien_ban/tao_moi.jsp" />
+        <option value="$PROJECT_DIR$/src/ad14/models/services/serviceCSGT.java" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" />
+        <option value="$PROJECT_DIR$/src/ad14/models/services/ServiceCSGT.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AD14" type="58d84e3e:PackageViewProjectNode" />
+              <item name="AD14" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AD14" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AD14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AD14" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="SQL Server (Microsoft)" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\AD14\src\ad14\models\entities" />
+      <recent name="E:\AD14\web\public\css" />
+      <recent name="E:\AD14\web\public\js" />
+      <recent name="E:\AD14\web\super_admin" />
+      <recent name="E:\AD14\web" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Tomcat 9.0.6" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.6" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="AD14:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_6_AD14_4" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58118" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="AD14:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4da8e39-c242-418c-9f6c-94902eef3eb8" name="Default" comment="" />
+      <created>1524122431269</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524122431269</updated>
+      <workItem from="1524122440435" duration="14698000" />
+      <workItem from="1524143090087" duration="1464000" />
+      <workItem from="1524149441854" duration="5016000" />
+      <workItem from="1524182615791" duration="6575000" />
+      <workItem from="1524269751644" duration="6144000" />
+      <workItem from="1524282987451" duration="595000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="34492000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52970296" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.23600605" />
+      <window_info id="Web" order="2" sideWeight="0.50165015" side_tool="true" weight="0.24962178" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.32753405" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32838285" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32838285" />
+      <window_info anchor="bottom" id="SQL Generator" order="8" weight="0.32838285" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../AD14/web/includes/left_nav.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/src/ad14/utils/KetNoiCSDL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/src/ad14/models/dao/Dao_CanhSatGiaoThong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/src/ad14/controllers/AuthenticationServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/src/ad14/controllers/AdminServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/src/ad14/utils/ThongTinCSDL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/web/super_admin/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="30" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/web/includes/top_nav.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/web/public/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/src/ad14/controllers/IndexServlet.java" />
+    <entry file="file://$PROJECT_DIR$/../AD14/src/ad14/utils/VaiTro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/src/ad14/models/entities/CanhSatGiaoThong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="114" column="5" lean-forward="true" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/web/public/js/custom.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9928">
+          <caret line="2" column="7710" selection-start-line="2" selection-start-column="7710" selection-end-line="2" selection-end-column="7710" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/web/public/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="187" column="2" selection-start-line="187" selection-start-column="2" selection-end-line="187" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/HTML-Groovy.html.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/CSV-Groovy.csv.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema/Generate POJOs.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/web/super_admin/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/web/includes/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/web/includes/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/src/ad14/controllers/SuperAdminServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/src/ad14/utils/WebURI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/apache-tomcat-9.0.6/lib/servlet-api.jar!/javax/servlet/ServletContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/web/includes/java_script.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/web/includes/top_nav.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="78" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/web/admin/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="65" selection-start-column="65" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/src/ad14/models/dao/Dao_CanhSatGiaoThong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/src/ad14/controllers/AdminServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/src/ad14/utils/KetNoiCSDL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/src/ad14/utils/ThongTinCSDL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/web/includes/left_nav.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/web/bien_ban/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/src/ad14/models/entities/BienBan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/src/ad14/models/entities/BienLaiThuPhat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/src/ad14/utils/JSPLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/web/bien_ban/tao_moi.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/src/ad14/models/services/ServiceCSGT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AD14/src/ad14/controllers/AuthenticationServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="36" column="68" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f8a93225-ec49-40a7-bcea-0ce7e52bb9c0/database/AD14/schema/dbo/table/CanhSatGiaoThong">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f8a93225-ec49-40a7-bcea-0ce7e52bb9c0/database/AD14/schema/dbo/table/CoQuan.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.DATABASE:AD14">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.DATABASE:AD14</OriginalElement>
+          <nodes>
+            <node x="561.4954656862743" y="840.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.HinhAnh</node>
+            <node x="2346.714460784314" y="44.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.NguoiDaiDienToChuc</node>
+            <node x="1885.49362745098" y="1228.5">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.CanCuQuyetDinh</node>
+            <node x="1475.0625000000002" y="895.5">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.LapBienBan</node>
+            <node x="811.4954656862743" y="807.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.VatBiTamGiu</node>
+            <node x="744.8833333333331" y="55.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.TrangThai</node>
+            <node x="67.25" y="1228.5">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.ThamQuyen</node>
+            <node x="1924.7583333333332" y="730.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.QuyetDinhXuPhat</node>
+            <node x="55.9954656862742" y="431.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.HinhThucPhatBoSung</node>
+            <node x="652.8477941176468" y="1228.5">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.CanCuBienBan</node>
+            <node x="2046.49362745098" y="1184.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.BienLaiThuPhat</node>
+            <node x="1249.7227941176466" y="44.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.CoQuan</node>
+            <node x="1044.2852941176468" y="44.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.NguoiBiThietHai</node>
+            <node x="2099.714460784314" y="44.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.ToChucViPham</node>
+            <node x="357.5" y="1228.5">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.MinhChung</node>
+            <node x="0.0" y="884.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.LoaiCanhSat</node>
+            <node x="320.9954656862743" y="420.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.KhoanTienPhat</node>
+            <node x="2515.964460784314" y="431.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.LoaiQuyetDinh</node>
+            <node x="1566.3125000000002" y="354.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.CanhSatGiaoThong</node>
+            <node x="728.3833333333331" y="420.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.LoaiVatBiTamGiu</node>
+            <node x="1615.7144607843136" y="55.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.VaiTro</node>
+            <node x="236.0" y="829.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.HanhViViPham</node>
+            <node x="1205.25" y="266.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.BienBan</node>
+            <node x="2296.964460784314" y="387.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.GiayXacThucToChuc</node>
+            <node x="1814.7144607843136" y="0.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.NguoiViPham</node>
+            <node x="496.9954656862743" y="420.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.Dieu</node>
+            <node x="982.2500000000001" y="387.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.NguoiChungKien</node>
+            <node x="1040.25" y="895.5">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.ChungKien</node>
+            <node x="1872.4746323529407" y="398.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.GiayToTuyThan</node>
+            <node x="0.0" y="1391.0">f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.sysdiagrams</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.CanCuQuyetDinh" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.HinhAnh">
+              <point x="-35.25" y="-36.5" />
+              <point x="1920.74362745098" y="1154.0" />
+              <point x="753.1621323529411" y="1154.0" />
+              <point x="76.66666666666674" y="92.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.GiayToTuyThan" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.NguoiViPham">
+              <point x="0.0" y="-70.0" />
+              <point x="1955.9746323529407" y="236.0" />
+              <point x="1947.2144607843136" y="236.0" />
+              <point x="0.0" y="103.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.MinhChung" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.HinhAnh">
+              <point x="32.25" y="-36.5" />
+              <point x="454.25" y="1164.0" />
+              <point x="599.8287990196077" y="1164.0" />
+              <point x="-76.66666666666663" y="92.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.HanhViViPham" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.KhoanTienPhat">
+              <point x="0.0" y="-103.0" />
+              <point x="338.5" y="710.0" />
+              <point x="398.9954656862743" y="710.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.QuyetDinhXuPhat" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.ToChucViPham">
+              <point x="55.59999999999991" y="-202.0" />
+              <point x="2119.358333333333" y="700.0" />
+              <point x="2213.214460784314" y="700.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.ChungKien" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.BienBan">
+              <point x="43.5" y="-36.5" />
+              <point x="1170.75" y="710.0" />
+              <point x="1300.35" y="710.0" />
+              <point x="-63.40000000000009" y="202.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.BienBan" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.NguoiBiThietHai">
+              <point x="-39.625" y="-202.0" />
+              <point x="1324.125" y="226.0" />
+              <point x="1133.7852941176468" y="226.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.BienBan" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.NguoiViPham">
+              <point x="39.625" y="-202.0" />
+              <point x="1403.375" y="236.0" />
+              <point x="1858.8811274509803" y="236.0" />
+              <point x="-88.33333333333326" y="103.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.VatBiTamGiu" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.LoaiVatBiTamGiu">
+              <point x="-61.33333333333337" y="-125.0" />
+              <point x="842.162132352941" y="710.0" />
+              <point x="810.8833333333331" y="710.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.MinhChung" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.HanhViViPham">
+              <point x="-32.25" y="-36.5" />
+              <point x="51.25" y="103.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.LapBienBan" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.CanhSatGiaoThong">
+              <point x="46.5" y="-36.5" />
+              <point x="-48.25" y="114.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.VatBiTamGiu" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.TrangThai">
+              <point x="0.0" y="-125.0" />
+              <point x="903.4954656862743" y="710.0" />
+              <point x="919.3287990196077" y="710.0" />
+              <point x="919.3287990196077" y="246.0" />
+              <point x="843.8833333333331" y="246.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.GiayXacThucToChuc" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.NguoiDaiDienToChuc">
+              <point x="49.75" y="-81.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.CanCuQuyetDinh" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.QuyetDinhXuPhat">
+              <point x="35.25" y="-36.5" />
+              <point x="1991.24362745098" y="1164.0" />
+              <point x="1994.2583333333332" y="1164.0" />
+              <point x="-69.5" y="202.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.HinhAnh" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.TrangThai">
+              <point x="0.0" y="-92.0" />
+              <point x="676.4954656862743" y="246.0" />
+              <point x="777.8833333333331" y="246.0" />
+              <point x="-66.0" y="48.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.QuyetDinhXuPhat" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.LoaiQuyetDinh">
+              <point x="111.19999999999982" y="-202.0" />
+              <point x="2174.958333333333" y="710.0" />
+              <point x="2631.464460784314" y="710.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.HanhViViPham" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.Dieu">
+              <point x="68.33333333333331" y="-103.0" />
+              <point x="406.83333333333326" y="710.0" />
+              <point x="581.4954656862743" y="710.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.ChungKien" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.NguoiChungKien">
+              <point x="-43.5" y="-36.5" />
+              <point x="0.0" y="81.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.HanhViViPham" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.HinhThucPhatBoSung">
+              <point x="-68.33333333333331" y="-103.0" />
+              <point x="270.16666666666674" y="710.0" />
+              <point x="178.4954656862742" y="710.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.QuyetDinhXuPhat" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.NguoiViPham">
+              <point x="0.0" y="-202.0" />
+              <point x="2063.758333333333" y="236.0" />
+              <point x="2035.5477941176468" y="236.0" />
+              <point x="88.33333333333326" y="103.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.ThamQuyen" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.HanhViViPham">
+              <point x="40.75" y="-36.5" />
+              <point x="189.5" y="1164.0" />
+              <point x="287.25" y="1164.0" />
+              <point x="-51.25" y="103.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.VatBiTamGiu" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.BienBan">
+              <point x="61.33333333333337" y="-125.0" />
+              <point x="964.8287990196077" y="700.0" />
+              <point x="1236.9500000000003" y="700.0" />
+              <point x="-126.79999999999995" y="202.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.LapBienBan" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.BienBan">
+              <point x="-46.5" y="-36.5" />
+              <point x="1521.5625000000002" y="710.0" />
+              <point x="1427.15" y="710.0" />
+              <point x="63.40000000000009" y="202.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.BienLaiThuPhat" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.QuyetDinhXuPhat">
+              <point x="0.0" y="-81.0" />
+              <point x="2156.99362745098" y="1164.0" />
+              <point x="2133.258333333333" y="1164.0" />
+              <point x="69.5" y="202.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.GiayXacThucToChuc" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.ToChucViPham">
+              <point x="-49.75" y="-81.0" />
+              <point x="2346.714460784314" y="246.0" />
+              <point x="2288.88112745098" y="246.0" />
+              <point x="75.66666666666652" y="59.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.BienBan" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.TrangThai">
+              <point x="-118.875" y="-202.0" />
+              <point x="1244.875" y="236.0" />
+              <point x="909.883333333333" y="236.0" />
+              <point x="65.99999999999989" y="48.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.CanhSatGiaoThong" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.CoQuan">
+              <point x="-48.25000000000023" y="-114.0" />
+              <point x="1614.5625" y="226.0" />
+              <point x="1393.7227941176466" y="226.0" />
+              <point x="48.0" y="59.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.CanCuBienBan" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.HinhAnh">
+              <point x="-32.25" y="-36.5" />
+              <point x="685.0977941176468" y="1164.0" />
+              <point x="676.4954656862743" y="1164.0" />
+              <point x="0.0" y="92.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.CanCuBienBan" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.BienBan">
+              <point x="32.25" y="-36.5" />
+              <point x="749.5977941176468" y="1164.0" />
+              <point x="1363.75" y="1164.0" />
+              <point x="0.0" y="202.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.NguoiChungKien" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.CoQuan">
+              <point x="0.0" y="-81.0" />
+              <point x="1083.75" y="246.0" />
+              <point x="1297.7227941176466" y="246.0" />
+              <point x="-48.0" y="59.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.BienBan" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.ToChucViPham">
+              <point x="118.875" y="-202.0" />
+              <point x="1482.625" y="246.0" />
+              <point x="2137.547794117647" y="246.0" />
+              <point x="-75.66666666666652" y="59.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.CanhSatGiaoThong" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.VaiTro">
+              <point x="48.24999999999977" y="-114.0" />
+              <point x="1711.0625" y="226.0" />
+              <point x="1705.2144607843136" y="226.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.ThamQuyen" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.LoaiCanhSat">
+              <point x="-40.75" y="-36.5" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.QuyetDinhXuPhat" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.CanhSatGiaoThong">
+              <point x="-55.59999999999991" y="-202.0" />
+              <point x="2008.1583333333333" y="690.0" />
+              <point x="1711.0625" y="690.0" />
+              <point x="48.24999999999977" y="114.0" />
+            </edge>
+            <edge source="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.QuyetDinhXuPhat" target="f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.TABLE:AD14.dbo.BienBan">
+              <point x="-111.20000000000005" y="-202.0" />
+              <point x="1952.558333333333" y="700.0" />
+              <point x="1490.5500000000002" y="700.0" />
+              <point x="126.79999999999995" y="202.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.10000000000000005" x="1211.0" y="636.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>AD14:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (AD14)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>AD14</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
