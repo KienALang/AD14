@@ -1,9 +1,6 @@
 <%@ page import="ad14.utils.VaiTro" %>
 <%@page import="ad14.models.entities.CanhSatGiaoThong" %>
-<%
-        
-    CanhSatGiaoThong csgt = (CanhSatGiaoThong)request.getSession().getAttribute("csgt");
-%>
+<% CanhSatGiaoThong csgt = (CanhSatGiaoThong)session.getAttribute("csgt"); %>
 <%--
   Created by IntelliJ IDEA.
   User: Kenny
@@ -23,7 +20,7 @@
         <!-- menu profile quick info -->
         <div class="profile clearfix">
             <div class="profile_pic">
-                <img src="public/images/img.jpg" alt="avatar" class="img-circle profile_img">
+                <img src="/public/images/img.jpg" alt="avatar" class="img-circle profile_img">
             </div>
             <div class="profile_info">
                 <span>Chào mừng,</span>
@@ -41,7 +38,7 @@
                 <ul class="nav side-menu">
                     <li><a><i class="fa fa-home"></i> Trang chủ <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="index.html">Trang chủ</a></li>
+                            <li><a href="<%=WebURI.INDEX_02%>">Trang chủ</a></li>
                             <li><a href="#">Thông tin cá nhân</a></li>
                             <% if (csgt.getIdVaiTro() == VaiTro.SUPER_ADMIN){%>
                             <li><a href="#">Thông tin các admin</a></li>
@@ -50,8 +47,8 @@
                     </li>
                     <li><a><i class="fa fa-bold"></i> Biên Bản <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="#">Xem danh sách</a></li>
-                            <li><a href="#">Tạo mới</a></li>
+                            <li><a href="<%=WebURI.BIEN_BAN%>">Xem danh sách</a></li>
+                            <li><a href="<%=WebURI.BIEN_BAN_TAO_MOI%>">Tạo mới</a></li>
                         </ul>
                     </li>
 

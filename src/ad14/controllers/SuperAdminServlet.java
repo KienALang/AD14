@@ -23,8 +23,7 @@ public class SuperAdminServlet extends HttpServlet {
         CanhSatGiaoThong csgt = (CanhSatGiaoThong)request.getSession().getAttribute("csgt");
 
         if (csgt != null && csgt.getIdVaiTro() == VaiTro.SUPER_ADMIN) {
-            request.setAttribute("csgt", csgt);
-            getServletContext().getRequestDispatcher(JSPLocation.SUPER_ADMIN).forward(request, response);
+            response.sendRedirect(JSPLocation.SUPER_ADMIN);
         } else {
             response.sendRedirect(WebURI.DANG_NHAP);
         }

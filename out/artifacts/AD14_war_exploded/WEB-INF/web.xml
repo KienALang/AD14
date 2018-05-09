@@ -39,6 +39,21 @@
         <url-pattern>/super-admin</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>BienBanServlet</servlet-name>
+        <servlet-class>ad14.controllers.BienBanServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>BienBanServlet</servlet-name>
+        <url-pattern>/bien-ban</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BienBanServlet</servlet-name>
+        <url-pattern>/bien-ban/tao-moi</url-pattern>
+
+    </servlet-mapping>
+
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>

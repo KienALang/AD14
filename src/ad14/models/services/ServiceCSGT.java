@@ -12,7 +12,7 @@ public class ServiceCSGT {
 
 
     public CanhSatGiaoThong getCSGT(String taiKhoan, String matKhau) {
-        // kiem tra nguoi dung nhap co lloi gi ko
+        // kiem tra nguoi dung nhap co loi gi ko
         return daoCanhSatGiaoThong.getCSGT(taiKhoan, matKhau);
     }
 }

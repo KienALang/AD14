@@ -19,7 +19,7 @@
                     <h1>ĐĂNG NHẬP</h1>
                     <% String key = (String) request.getAttribute("message");
                         if (key != null) {
-                            out.print("This is the key Word you've entered: " + key);
+                            out.print(key);
                         }
                     %>
                     <div>
@@ -28,8 +28,8 @@
                     <div>
                         <input type="password" name="mat_khau" class="form-control" placeholder="Mật khẩu" required="" />
                     </div>
-                    <div>
-                        <input type="submit" value="Đăng nhập" class="btn btn-lg">
+                    <div class="text-center">
+                        <input style="float: none; margin-left: 0;" type="submit" value="Đăng nhập" class="btn btn-lg">
                     </div>
 
                     <div class="clearfix"></div>

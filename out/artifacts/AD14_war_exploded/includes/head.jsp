@@ -15,8 +15,8 @@
 <title>AD14 | </title>
 
 <!-- Bootstrap -->
-<link href="public/css/bootstrap.min.css" rel="stylesheet">
+<link href="/public/css/bootstrap.min.css" rel="stylesheet">
 <!-- Font Awesome -->
-<link href="public/css/font-awesome.min.css" rel="stylesheet">
+<link href="/public/css/font-awesome.min.css" rel="stylesheet">
 <!-- Custom Theme Style -->
-<link href="public/css/custom.min.css" rel="stylesheet">
+<link href="/public/css/custom.min.css" rel="stylesheet">

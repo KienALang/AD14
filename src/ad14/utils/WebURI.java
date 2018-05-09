@@ -22,6 +22,7 @@ public class WebURI {
 
     // Bien Ban
     public static final String BIEN_BAN = "/bien-ban";
+    public static final String BIEN_BAN_TAO_MOI = "/bien-ban/tao-moi";
 
     // Hinh Anh
     public static final String HINH_ANH = "/hinh-anh";
