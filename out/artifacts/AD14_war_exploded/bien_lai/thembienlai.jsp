@@ -1,5 +1,3 @@
-<%@ page import="ad14.models.entities.BienLaiThuPhat" %>
-<%@ page import="java.util.List" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="vi">
@@ -27,42 +25,53 @@
                 </div>
                 <div class="x_content">
                     <br>
-                    <form id="suabienlai-form" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="" method="post">
+                    <form id="suabienlai-form" data-parsley-validate="" class="form-horizontal form-label-left"
+                          novalidate="" method="post">
 
                         <input type="hidden" name="id">
                         <div class="form-group">
-                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="txt-idQuyetDinh">ID Quyết định<span class="required">*</span>
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="txt-idQuyetDinh">ID Quyết định<span
+                                    class="required">*</span>
                             </label>
                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                <input type="text" id="txt-idQuyetDinh" name="quyetdinh" required="required" class="form-control col-md-7 col-xs-12">
+                                <input type="text" id="txt-idQuyetDinh" name="quyetdinh" required="required"
+                                       class="form-control col-md-7 col-xs-12">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="txt_hoTen">Họ tên <span class="required">*</span>
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="txt_hoTen">Họ tên <span
+                                    class="required">*</span>
                             </label>
                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                <input type="text" id="txt_hoTen" name="hoten" required="required" class="form-control col-md-7 col-xs-12">
+                                <input type="text" id="txt_hoTen" name="hoten" required="required"
+                                       class="form-control col-md-7 col-xs-12">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="txt_ngay">Ngày <span class="required">*</span>
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="txt_ngay">Ngày <span
+                                    class="required">*</span>
                             </label>
                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                <input type="text" id="txt_ngay" name="ngay" required="required" class="form-control col-md-7 col-xs-12">
+                                <input type="text" id="txt_ngay" name="ngay" required="required"
+                                       class="form-control col-md-7 col-xs-12">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="txt_lyDo">Lý Do <span class="required">*</span>
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="txt_lyDo">Lý Do <span
+                                    class="required">*</span>
                             </label>
                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                <input type="text" id="txt_lyDo" name="lydo" required="required" class="form-control col-md-7 col-xs-12">
+                                <input type="text" id="txt_lyDo" name="lydo" required="required"
+                                       class="form-control col-md-7 col-xs-12">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="txt_tongTien">Tổng tiền <span class="required">*</span>
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="txt_tongTien">Tổng tiền <span
+                                    class="required">*</span>
                             </label>
                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                <input type="text" id="txt_tongTien" name="tongtien" required="required" class="form-control col-md-7 col-xs-12">
+                                <input type="text" id="txt_tongTien" name="tongtien" required="required"
+                                       class="form-control col-md-7 col-xs-12">
                             </div>
                         </div>
 
@@ -79,13 +88,7 @@
         <!-- /page content -->
 
         <!-- footer content -->
-
-        <footer>
-            <div class="pull-right">
-                &copy Kenny.com 2018
-            </div>
-            <div class="clearfix"></div>
-        </footer>
+        <%@include file="../includes/footer.jsp" %>
         <!-- /footer content -->
     </div>
 </div>

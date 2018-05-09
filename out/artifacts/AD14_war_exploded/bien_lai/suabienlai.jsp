@@ -1,5 +1,4 @@
 <%@ page import="ad14.models.entities.BienLaiThuPhat" %>
-<%@ page import="java.util.List" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="vi">
@@ -21,12 +20,15 @@
             <!-- top tiles -->
             <div class="x_panel">
                 <div class="x_title">
-                    <h2>Form Design <small>different form elements</small></h2>
+                    <h2>Form Design
+                        <small>different form elements</small>
+                    </h2>
                     <ul class="nav navbar-right panel_toolbox">
                         <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-expanded="false"><i class="fa fa-wrench"></i></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="#">Settings 1</a>
                                 </li>
@@ -42,44 +44,56 @@
                 <div class="x_content">
                     <br>
                     <%
-                            BienLaiThuPhat bienlai = (BienLaiThuPhat) request.getAttribute("bienlai");
+                        BienLaiThuPhat bienlai = (BienLaiThuPhat) request.getAttribute("bienlai");
                     %>
-                    <form id="suabienlai-form" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="" method="post">
+                    <form id="suabienlai-form" data-parsley-validate="" class="form-horizontal form-label-left"
+                          novalidate="" method="post">
 
                         <input type="hidden" name="id">
                         <div class="form-group">
-                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="txt-idQuyetDinh">ID Quyết định<span class="required">*</span>
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="txt-idQuyetDinh">ID Quyết định<span
+                                    class="required">*</span>
                             </label>
                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                <input type="text" id="txt-idQuyetDinh" name="quyetdinh" required="required" class="form-control col-md-7 col-xs-12" value="<%=bienlai.getIdQuyetDinh()%>">
+                                <input type="text" id="txt-idQuyetDinh" name="quyetdinh" required="required"
+                                       class="form-control col-md-7 col-xs-12" value="<%=bienlai.getIdQuyetDinh()%>">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="txt_hoTen">Họ tên <span class="required">*</span>
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="txt_hoTen">Họ tên <span
+                                    class="required">*</span>
                             </label>
                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                <input type="text" id="txt_hoTen" name="hoten" required="required" class="form-control col-md-7 col-xs-12" value="<%=bienlai.getHoTenNguoiNop()%>">
+                                <input type="text" id="txt_hoTen" name="hoten" required="required"
+                                       class="form-control col-md-7 col-xs-12" value="<%=bienlai.getHoTenNguoiNop()%>">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="txt_ngay">Ngày <span class="required">*</span>
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="txt_ngay">Ngày <span
+                                    class="required">*</span>
                             </label>
                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                <input type="text" id="txt_ngay" name="ngay" required="required" class="form-control col-md-7 col-xs-12" value="<%=bienlai.getThoiGianNopPhat()%>">
+                                <input type="text" id="txt_ngay" name="ngay" required="required"
+                                       class="form-control col-md-7 col-xs-12"
+                                       value="<%=bienlai.getThoiGianNopPhat()%>">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="txt_lyDo">Lý Do <span class="required">*</span>
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="txt_lyDo">Lý Do <span
+                                    class="required">*</span>
                             </label>
                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                <input type="text" id="txt_lyDo" name="lydo" required="required" class="form-control col-md-7 col-xs-12" value="<%=bienlai.getLyDo()%>">
+                                <input type="text" id="txt_lyDo" name="lydo" required="required"
+                                       class="form-control col-md-7 col-xs-12" value="<%=bienlai.getLyDo()%>">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="txt_tongTien">Tổng tiền <span class="required">*</span>
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="txt_tongTien">Tổng tiền <span
+                                    class="required">*</span>
                             </label>
                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                <input type="text" id="txt_tongTien" name="tongtien" required="required" class="form-control col-md-7 col-xs-12" value="<%=bienlai.getTongTien()%>">
+                                <input type="text" id="txt_tongTien" name="tongtien" required="required"
+                                       class="form-control col-md-7 col-xs-12" value="<%=bienlai.getTongTien()%>">
                             </div>
                         </div>
 
@@ -96,13 +110,7 @@
         <!-- /page content -->
 
         <!-- footer content -->
-
-        <footer>
-            <div class="pull-right">
-                &copy Kenny.com 2018
-            </div>
-            <div class="clearfix"></div>
-        </footer>
+        <%@include file="../includes/footer.jsp" %>
         <!-- /footer content -->
     </div>
 </div>

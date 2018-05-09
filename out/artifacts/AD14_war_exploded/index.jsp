@@ -41,7 +41,7 @@
                 <p style="font-weight: normal">Minh bạch, dễ dàng, nhanh chóng</p>
             </div>
 
-            <form name="tim-kiem" action="#" method="get">
+            <form name="tim-kiem" action='<%=WebURI.TIM_KIEM%>' method="get">
                 <div class="form-group">
                     <input type="text" class="form-control" name="tu-khoa">
                     <br>
@@ -51,11 +51,11 @@
                 </div>
             </form>
             <p>
-                <% String key = (String) request.getAttribute("message");
-                    if (key != null) {
-                        out.print("This is the key Word you've entered: " + key);
-                    }
-                %>
+                    <% String resMsg = (String) request.getAttribute("message");
+                    if (resMsg != null) { %>
+            <div class="alert alert-info"><%=resMsg%>
+            </div>
+            <% } %>
             </p>
         </div>
     </div>

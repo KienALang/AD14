@@ -5,6 +5,23 @@
          version="4.0">
 
     <servlet>
+        <servlet-name>TrangChuServlet</servlet-name>
+        <servlet-class>ad14.controllers.TrangChuServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TrangChuServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TrangChuServlet</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TrangChuServlet</servlet-name>
+        <url-pattern>/tim-kiem</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>AdminServlet</servlet-name>
         <servlet-class>ad14.controllers.AdminServlet</servlet-class>
     </servlet>

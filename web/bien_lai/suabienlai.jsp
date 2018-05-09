@@ -110,13 +110,7 @@
         <!-- /page content -->
 
         <!-- footer content -->
-
-        <footer>
-            <div class="pull-right">
-                &copy Kenny.com 2018
-            </div>
-            <div class="clearfix"></div>
-        </footer>
+        <%@include file="../includes/footer.jsp" %>
         <!-- /footer content -->
     </div>
 </div>
