@@ -42,7 +42,8 @@ public class AuthenticationServlet extends HttpServlet {
                     sendRedirect(response, csgt.getIdVaiTro());
                 } else {
                     request.setAttribute("message", ThongBao.TAI_KHOAN_CHUA_CHINH_XAC);
-                    doGet(request, response);
+                    RequestDispatcher dispatcher = request.getRequestDispatcher(JSPLocation.DANG_NHAP);
+                    dispatcher.forward(request, response);
                 }
                 break;
 
@@ -60,8 +61,7 @@ public class AuthenticationServlet extends HttpServlet {
             sendRedirect(response, csgt.getIdVaiTro());
         } else {
             session.invalidate();
-            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(JSPLocation.DANG_NHAP);
-            dispatcher.forward(request, response);
+            response.sendRedirect(JSPLocation.DANG_NHAP);
             return;
         }
     }
