@@ -54,8 +54,8 @@
 
                     <li><a><i class="fa fa-retweet"></i> Quyết định <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="#">Xem danh sách</a></li>
-                            <li><a href="#">Tạo mới</a></li>
+                            <li><a href='<%=WebURI.QUYET_DINH%>'>Xem danh sách</a></li>
+                            <li><a href='<%=WebURI.QUYET_DINH_TAO_MOI%>'>Tạo mới</a></li>
                         </ul>
                     </li>
 

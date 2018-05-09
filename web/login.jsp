@@ -36,7 +36,7 @@
 
                     <div class="separator">
                         <div>
-                            <h1><i class="fa fa-shield"></i> AD14</h1>
+                            <a href='<%=WebURI.INDEX_01%>'><h1><i class="fa fa-shield"></i>  AD14</h1></a>
                             <p>©2018 All Rights Reserved. Our team use bootstrap 3</p>
                         </div>
                     </div>

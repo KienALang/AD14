@@ -16,4 +16,8 @@ public class JSPLocation {
     // Bien Ban
     public static final String BIEN_BAN = "/bien_ban/index.jsp";
     public static final String BIEN_BAN_TAO_MOI = "/bien_ban/tao_moi.jsp";
+
+    // Bien Ban
+    public static final String QUYET_DINH = "/quyet_dinh/index.jsp";
+    public static final String QUYET_DINH_TAO_MOI = "/quyet_dinh/tao_moi.jsp";
 }

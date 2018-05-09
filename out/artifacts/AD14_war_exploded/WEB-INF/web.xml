@@ -51,7 +51,20 @@
     <servlet-mapping>
         <servlet-name>BienBanServlet</servlet-name>
         <url-pattern>/bien-ban/tao-moi</url-pattern>
+    </servlet-mapping>
 
+    <servlet>
+        <servlet-name>QuyetDinhServlet</servlet-name>
+        <servlet-class>ad14.controllers.QuyetDinhServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>QuyetDinhServlet</servlet-name>
+        <url-pattern>/quyet-dinh</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>QuyetDinhServlet</servlet-name>
+        <url-pattern>/quyet-dinh/tao-moi</url-pattern>
     </servlet-mapping>
 
     <welcome-file-list>
