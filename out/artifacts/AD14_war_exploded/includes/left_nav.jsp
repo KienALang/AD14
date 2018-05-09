@@ -68,8 +68,8 @@
 
                     <li><a><i class="fa fa-money"></i> Biên lai thu phạt <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="#">Xem danh sách</a></li>
-                            <li><a href="#">Tạo mới</a></li>
+                            <li><a href='<%=WebURI.BIEN_LAI%>'>Xem danh sách</a></li>
+                            <li><a href='<%=WebURI.THEM_BIEN_LAI%>'>Tạo mới</a></li>
                         </ul>
                     </li>
 

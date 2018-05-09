@@ -20,4 +20,13 @@ public class JSPLocation {
     // Bien Ban
     public static final String QUYET_DINH = "/quyet_dinh/index.jsp";
     public static final String QUYET_DINH_TAO_MOI = "/quyet_dinh/tao_moi.jsp";
+
+    //Xem Bien Lai
+    public static final String XEM_BIEN_LAI ="/bien_lai/xembienlai.jsp";
+
+    //Them Bien Lai
+    public static final String THEM_BIEN_LAI = "/bien_lai/thembienlai.jsp";
+
+    //Sua Bien Lai
+    public static final String SUA_BIEN_LAI = "/bien_lai/suabienlai.jsp";
 }

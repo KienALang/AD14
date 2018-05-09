@@ -33,4 +33,16 @@ public class WebURI {
 
     // Bao cao thong ke
     public static final String THONG_KE = "/thong-ke";
+
+    //Bien Lai
+    public static final String BIEN_LAI="/bien-lai";
+
+    //Them Bien Lai
+    public static final String THEM_BIEN_LAI="/them-bien-lai";
+
+    //Xoa Bien Lai
+    public static final String XOA_BIEN_LAI="/xoa-bien-lai";
+
+    //Sua Bien Lai
+    public static final String SUA_BIEN_LAI="/sua-bien-lai";
 }

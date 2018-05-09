@@ -67,6 +67,36 @@
         <url-pattern>/quyet-dinh/tao-moi</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>BienLaiServlet</servlet-name>
+        <servlet-class>ad14.controllers.BienLaiServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BienLaiServlet</servlet-name>
+        <url-pattern>/bien-lai</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ThemBienLaiServlet</servlet-name>
+        <servlet-class>ad14.controllers.ThemBienLaiServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ThemBienLaiServlet</servlet-name>
+        <url-pattern>/them-bien-lai</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>XoaBienLaiServlet</servlet-name>
+        <servlet-class>ad14.controllers.XoaBienLaiServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>XoaBienLaiServlet</servlet-name>
+        <url-pattern>/xoa-bien-lai</url-pattern>
+    </servlet-mapping>
+
+
+
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
