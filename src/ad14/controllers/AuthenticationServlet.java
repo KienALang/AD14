@@ -15,7 +15,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 
-@WebServlet(name = "AuthenticationServlet",urlPatterns = {WebURI.DANG_NHAP, WebURI.DANG_XUAT})
+@WebServlet(name = "AuthenticationServlet", urlPatterns = {WebURI.DANG_NHAP, WebURI.DANG_XUAT})
 public class AuthenticationServlet extends HttpServlet {
     private ServiceCSGT serviceCSGT;
 
@@ -30,8 +30,8 @@ public class AuthenticationServlet extends HttpServlet {
         switch (request.getRequestURI()) {
             case WebURI.DANG_NHAP: // case Login
                 // get Parameter
-                String taiKhoan = (String)request.getParameter("tai_khoan");
-                String matKhau = (String)request.getParameter("mat_khau");
+                String taiKhoan = (String) request.getParameter("tai_khoan");
+                String matKhau = (String) request.getParameter("mat_khau");
 
                 // get CSGT
                 CanhSatGiaoThong csgt = serviceCSGT.getCSGT(taiKhoan, matKhau);
@@ -56,7 +56,7 @@ public class AuthenticationServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
-        CanhSatGiaoThong csgt = (CanhSatGiaoThong)session.getAttribute("csgt");
+        CanhSatGiaoThong csgt = (CanhSatGiaoThong) session.getAttribute("csgt");
         if (csgt != null) {
             sendRedirect(response, csgt.getIdVaiTro());
         } else {
@@ -79,7 +79,7 @@ public class AuthenticationServlet extends HttpServlet {
     }
 
     private void sendRedirect(HttpServletResponse response, int vaiTro) throws IOException {
-        String uri = (vaiTro == VaiTro.SUPER_ADMIN)? WebURI.SUPER_ADMIN : WebURI.ADMIN;
+        String uri = (vaiTro == VaiTro.SUPER_ADMIN) ? WebURI.SUPER_ADMIN : WebURI.ADMIN;
         response.sendRedirect(uri);
     }
 }

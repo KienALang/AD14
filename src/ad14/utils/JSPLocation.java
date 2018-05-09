@@ -22,7 +22,7 @@ public class JSPLocation {
     public static final String QUYET_DINH_TAO_MOI = "/quyet_dinh/tao_moi.jsp";
 
     //Xem Bien Lai
-    public static final String XEM_BIEN_LAI ="/bien_lai/xembienlai.jsp";
+    public static final String XEM_BIEN_LAI = "/bien_lai/xembienlai.jsp";
 
     //Them Bien Lai
     public static final String THEM_BIEN_LAI = "/bien_lai/thembienlai.jsp";

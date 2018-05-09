@@ -21,7 +21,7 @@ public class QuyetDinhServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // check the session of csgt if it's exists
         HttpSession session = request.getSession();
-        CanhSatGiaoThong csgt = (CanhSatGiaoThong)session.getAttribute("csgt");
+        CanhSatGiaoThong csgt = (CanhSatGiaoThong) session.getAttribute("csgt");
 
         if (csgt != null) {
             String uri = request.getRequestURI();

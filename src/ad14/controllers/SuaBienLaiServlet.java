@@ -15,11 +15,11 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-@WebServlet(name = "SuaBienLaiServlet",urlPatterns = WebURI.SUA_BIEN_LAI)
+@WebServlet(name = "SuaBienLaiServlet", urlPatterns = WebURI.SUA_BIEN_LAI)
 public class SuaBienLaiServlet extends HttpServlet {
     private ServiceBienLai serviceBienLai;
 
-    public SuaBienLaiServlet(){
+    public SuaBienLaiServlet() {
         serviceBienLai = new ServiceBienLai(new Dao_BienLaiThuPhat(KetNoiCSDL.connect()));
     }
 
@@ -30,23 +30,23 @@ public class SuaBienLaiServlet extends HttpServlet {
         String NgayNop = request.getParameter("ngay");
         String LyDo = request.getParameter("lydo");
         long TongTien = Long.parseLong(request.getParameter("tongtien"));
-        int res = serviceBienLai.updateBienLaiThuPhat(id,HoTen,idQuyetDinh,NgayNop,LyDo,TongTien);
-        if(res>0){
+        int res = serviceBienLai.updateBienLaiThuPhat(id, HoTen, idQuyetDinh, NgayNop, LyDo, TongTien);
+        if (res > 0) {
             response.sendRedirect(WebURI.BIEN_LAI);
-        }else{
+        } else {
             response.sendRedirect(WebURI.SUA_BIEN_LAI);
         }
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession sess = request.getSession();
-        if(sess.getAttribute("csgt")==null){
+        if (sess.getAttribute("csgt") == null) {
             response.sendRedirect(WebURI.DANG_NHAP);
             return;
         }
         long id = Long.parseLong(request.getParameter("id"));
-        request.setAttribute("bienlai",serviceBienLai.getBienLaiThuPhat(id));
+        request.setAttribute("bienlai", serviceBienLai.getBienLaiThuPhat(id));
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(JSPLocation.SUA_BIEN_LAI);
-        dispatcher.forward(request,response);
+        dispatcher.forward(request, response);
     }
 }

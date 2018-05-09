@@ -16,15 +16,17 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-@WebServlet(name = "ThemBienLaiServlet",urlPatterns = WebURI.THEM_BIEN_LAI)
+@WebServlet(name = "ThemBienLaiServlet", urlPatterns = WebURI.THEM_BIEN_LAI)
 public class ThemBienLaiServlet extends HttpServlet {
     private ServiceBienLai bienlai;
-    public ThemBienLaiServlet(){
-        bienlai =  new ServiceBienLai(new Dao_BienLaiThuPhat(KetNoiCSDL.connect()));
+
+    public ThemBienLaiServlet() {
+        bienlai = new ServiceBienLai(new Dao_BienLaiThuPhat(KetNoiCSDL.connect()));
     }
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession sess = request.getSession();
-        if(sess.getAttribute("csgt")==null){
+        if (sess.getAttribute("csgt") == null) {
             response.sendRedirect(WebURI.DANG_NHAP);
             return;
         }
@@ -33,10 +35,10 @@ public class ThemBienLaiServlet extends HttpServlet {
         String NgayNop = request.getParameter("ngay");
         String LyDo = request.getParameter("lydo");
         long TongTien = Long.parseLong(request.getParameter("tongtien"));
-        int res = bienlai.insertBienLaiThuPhat(HoTen,IdQuyetDinh,NgayNop,LyDo,TongTien);
-        if(res>0){
+        int res = bienlai.insertBienLaiThuPhat(HoTen, IdQuyetDinh, NgayNop, LyDo, TongTien);
+        if (res > 0) {
             response.sendRedirect(WebURI.BIEN_LAI);
-        }else{
+        } else {
             response.sendRedirect(WebURI.THEM_BIEN_LAI);
         }
     }
@@ -44,11 +46,11 @@ public class ThemBienLaiServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
         CanhSatGiaoThong csgt = (CanhSatGiaoThong) session.getAttribute("csgt");
-        if(csgt==null){
+        if (csgt == null) {
             response.sendRedirect(WebURI.DANG_NHAP);
-        }else{
+        } else {
             RequestDispatcher dispatcher = request.getRequestDispatcher(JSPLocation.THEM_BIEN_LAI);
-            dispatcher.forward(request,response);
+            dispatcher.forward(request, response);
         }
     }
 }

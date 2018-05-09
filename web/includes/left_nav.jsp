@@ -1,6 +1,6 @@
-<%@ page import="ad14.utils.VaiTro" %>
-<%@page import="ad14.models.entities.CanhSatGiaoThong" %>
-<% CanhSatGiaoThong csgt = (CanhSatGiaoThong)session.getAttribute("csgt"); %>
+<%@ page import="ad14.models.entities.CanhSatGiaoThong" %>
+<%@page import="ad14.utils.VaiTro" %>
+<% CanhSatGiaoThong csgt = (CanhSatGiaoThong) session.getAttribute("csgt"); %>
 <%--
   Created by IntelliJ IDEA.
   User: Kenny
@@ -24,7 +24,8 @@
             </div>
             <div class="profile_info">
                 <span>Chào mừng,</span>
-                <h2><%=csgt.getHoVaTen()%></h2>
+                <h2><%=csgt.getHoVaTen()%>
+                </h2>
             </div>
         </div>
         <!-- /menu profile quick info -->
@@ -40,7 +41,7 @@
                         <ul class="nav child_menu">
                             <li><a href="<%=WebURI.INDEX_02%>">Trang chủ</a></li>
                             <li><a href="#">Thông tin cá nhân</a></li>
-                            <% if (csgt.getIdVaiTro() == VaiTro.SUPER_ADMIN){%>
+                            <% if (csgt.getIdVaiTro() == VaiTro.SUPER_ADMIN) {%>
                             <li><a href="#">Thông tin các admin</a></li>
                             <%}%>
                         </ul>
@@ -73,7 +74,8 @@
                         </ul>
                     </li>
 
-                    <li><a><i class="fa fa-area-chart"></i> Báo cáo thống kê <span class="fa fa-chevron-down"></span></a>
+                    <li><a><i class="fa fa-area-chart"></i> Báo cáo thống kê <span
+                            class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
                             <li><a href="#">Xem báo cáo</a></li>
                         </ul>
