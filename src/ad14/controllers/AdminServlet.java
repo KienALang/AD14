@@ -5,6 +5,7 @@ import ad14.utils.JSPLocation;
 import ad14.utils.VaiTro;
 import ad14.utils.WebURI;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.Servlet;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -15,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-@WebServlet(name = "AdminServlet", urlPatterns ={WebURI.ADMIN})
+@WebServlet(name = "AdminServlet", urlPatterns ={WebURI.ADMIN, WebURI.ADMIN_SUA, WebURI.ADMIN_THEM,  WebURI.ADMIN_TT })
 public class AdminServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -23,16 +24,34 @@ public class AdminServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // check the session of csgt if it's exists
-        CanhSatGiaoThong csgt = (CanhSatGiaoThong)request.getSession().getAttribute("csgt");
 
-        if (csgt != null && csgt.getIdVaiTro() == VaiTro.ADMIN) {
-            request.setAttribute("csgt", csgt);
-            getServletContext().getRequestDispatcher(JSPLocation.ADMIN).forward(request, response);
-        } else {
-            response.sendRedirect(WebURI.DANG_NHAP);
+
+        switch (request.getRequestURI()) {
+            case WebURI.ADMIN:
+                // check the session of csgt if it's exists
+                CanhSatGiaoThong csgt = (CanhSatGiaoThong)request.getSession().getAttribute("csgt");
+
+                if (csgt != null && csgt.getIdVaiTro() == VaiTro.ADMIN) {
+                    request.setAttribute("csgt", csgt);
+                    getServletContext().getRequestDispatcher(JSPLocation.ADMIN).forward(request, response);
+                } else {
+                    response.sendRedirect(WebURI.DANG_NHAP);
+                }
+
+                break;
+            case WebURI.ADMIN_THEM:
+                RequestDispatcher rd = request.getRequestDispatcher("/admin/add.jsp");
+                rd.forward(request, response);
+                break;
+            case WebURI.ADMIN_SUA:
+                RequestDispatcher rd1 = request.getRequestDispatcher("/admin/edit.jsp");
+                rd1.forward(request, response);
+                break;
+            case WebURI.ADMIN_TT:
+                RequestDispatcher rd2 = request.getRequestDispatcher("/admin/information.jsp");
+                rd2.forward(request, response);
+                break;
         }
-
     }
 
 

@@ -13,6 +13,9 @@ public class WebURI {
 
     // Admin
     public static final String ADMIN = "/admin";
+    public static final String ADMIN_THEM = "/admin/add";
+    public static final String ADMIN_SUA = "/admin/edit";
+    public static final String ADMIN_TT = "/admin/information";
 
     // Super Admin
     public static final String SUPER_ADMIN = "/super-admin";
@@ -25,8 +28,6 @@ public class WebURI {
 
     // Hinh Anh
     public static final String HINH_ANH = "/image";
-    public static final String HINH_ANH_THEM = "/image/add";
-    public static final String HINH_ANH_SUA = "/image/edit";
 
     // Bao cao thong ke
     public static final String THONG_KE = "/thong-ke";
