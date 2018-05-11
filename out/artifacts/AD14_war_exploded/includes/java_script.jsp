@@ -8,10 +8,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <!-- jQuery -->
-<script src="../public/js/jquery.min.js"></script>
+<script src="<%=request.getContextPath()%>/public/js/jquery.min.js"></script>
 <!-- Bootstrap -->
-<script src="../public/js/bootstrap.min.js"></script>
+<script src="<%=request.getContextPath()%>/public/js/bootstrap.min.js"></script>
 <!-- bootstrap-progressbar -->
-<script src="../public/js/bootstrap-progressbar.min.js"></script>
+<script src="<%=request.getContextPath()%>/public/js/bootstrap-progressbar.min.js"></script>
+
+
+<script src="<%=request.getContextPath()%>/public/js/jquery.validate.min.js"></script>
 <!-- Custom Theme Scripts -->
-<script src="../public/js/custom.js"></script>
+<script src="<%=request.getContextPath()%>/public/js/custom.js"></script>

@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="public/images/favicon.ico" type="image/ico"/>
 
-    <title>AD14 | Trang Chủ</title>
+    <title>AD14 | </title>
 
     <!-- Bootstrap -->
     <link href="public/css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +26,7 @@
         <div class="col-md-12">
             <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="container">
-                    <a class="navbar-brand" href="<%=WebURI.INDEX_01%>">SỞ GIAO THÔNG VẬN TẢI ĐÀ NẴNG</a>
+                    <a class="navbar-brand" href="<%=WebURI.ADMIN%>">SỞ GIAO THÔNG VẬN TẢI ĐÀ NẴNG</a>
                     <p class="navbar-text navbar-right"><a href="<%=WebURI.DANG_NHAP%>" class="navbar-link">Đăng
                         nhập</a></p>
                 </div>
@@ -41,7 +41,7 @@
                 <p style="font-weight: normal">Minh bạch, dễ dàng, nhanh chóng</p>
             </div>
 
-            <form name="tim-kiem" action="<%=WebURI.TIM_KIEM%>" method="get">
+            <form name="tim-kiem" action="#" method="get">
                 <div class="form-group">
                     <input type="text" class="form-control" name="tu-khoa">
                     <br>
@@ -51,11 +51,11 @@
                 </div>
             </form>
             <p>
-                    <% String resMsg = (String) request.getAttribute("message");
-                    if (resMsg != null) { %>
-            <div class="alert alert-info"><%=resMsg%>
-            </div>
-            <% } %>
+                <% String key = (String) request.getAttribute("message");
+                    if (key != null) {
+                        out.print("This is the key Word you've entered: " + key);
+                    }
+                %>
             </p>
         </div>
     </div>

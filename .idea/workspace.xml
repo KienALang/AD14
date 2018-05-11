@@ -6,112 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4da8e39-c242-418c-9f6c-94902eef3eb8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/BienLaiServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/QuyetDinhServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/SuaBienLaiServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/ThemBienLaiServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/XoaBienLaiServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/models/dao/Dao_BienLaiThuPhat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/models/services/ServiceBienLai.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/bien_lai/suabienlai.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/bien_lai/thembienlai.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/bien_lai/xembienlai.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/quyet_dinh/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/quyet_dinh/tao_moi.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/BienLaiServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/QuyetDinhServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/SuaBienLaiServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/ThemBienLaiServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/XoaBienLaiServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AD14/ad14/models/dao/Dao_BienLaiThuPhat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AD14/ad14/models/services/ServiceBienLai.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ad14/controllers/BienLaiServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ad14/controllers/QuyetDinhServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ad14/controllers/SuaBienLaiServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ad14/controllers/ThemBienLaiServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ad14/controllers/XoaBienLaiServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ad14/models/dao/Dao_BienLaiThuPhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ad14/models/services/ServiceBienLai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bien_lai/suabienlai.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bien_lai/thembienlai.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bien_lai/xembienlai.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/quyet_dinh/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/quyet_dinh/tao_moi.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/AdminServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/AdminServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/AuthenticationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/AuthenticationServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/BienBanServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/BienBanServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/TrangChuServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/TrangChuServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/utils/JSPLocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/utils/JSPLocation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/utils/ThongBao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/utils/ThongBao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/utils/WebURI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/utils/WebURI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/bien_ban/tao_moi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/bien_ban/tao_moi.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/includes/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/includes/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/includes/left_nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/includes/left_nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/includes/top_nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/includes/top_nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/public/css/custom.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/public/css/custom.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/public/js/responsive.bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/public/js/responsive.bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/public/js/vfs_fonts.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/public/js/vfs_fonts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/super_admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/super_admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/AdminServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/AdminServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/AuthenticationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/AuthenticationServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/BienBanServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/BienBanServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/TrangChuServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/TrangChuServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AD14/ad14/utils/JSPLocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AD14/ad14/utils/JSPLocation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AD14/ad14/utils/ThongBao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AD14/ad14/utils/ThongBao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AD14/ad14/utils/WebURI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AD14/ad14/utils/WebURI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/controllers/BienBanServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/controllers/BienBanServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/controllers/SuperAdminServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/controllers/SuperAdminServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/BienBan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/BienBan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/BienLaiThuPhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/BienLaiThuPhat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/CanCuBienBan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/CanCuBienBan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/CanCuQuyetDinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/CanCuQuyetDinh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/ChungKien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/ChungKien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/CoQuan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/CoQuan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/Dieu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/Dieu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/GiayToTuyThan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/GiayToTuyThan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/GiayXacThucToChuc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/GiayXacThucToChuc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/HanhViViPham.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/HanhViViPham.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/HinhAnh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/HinhAnh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/HinhThucPhatBoSung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/HinhThucPhatBoSung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/KhoanTienPhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/KhoanTienPhat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/LapBienBan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/LapBienBan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/LoaiCanhSat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/LoaiCanhSat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/LoaiQuyetDinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/LoaiQuyetDinh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/LoaiVatBiTamGiu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/LoaiVatBiTamGiu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/MinhChung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/MinhChung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/NguoiBiThietHai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/NguoiBiThietHai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/NguoiChungKien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/NguoiChungKien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/NguoiDaiDienToChuc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/NguoiDaiDienToChuc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/NguoiViPham.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/NguoiViPham.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/QuyetDinhXuPhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/QuyetDinhXuPhat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/ThamQuyen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/ThamQuyen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/ToChucViPham.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/ToChucViPham.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/TrangThai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/TrangThai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/VaiTro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/VaiTro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/VatBiTamGiu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/VatBiTamGiu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/utils/JSPLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/utils/JSPLocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/utils/ThongBao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/utils/ThongBao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/utils/WebURI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/utils/WebURI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/bien_ban/tao_moi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bien_ban/tao_moi.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/includes/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/includes/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/includes/left_nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/includes/left_nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/includes/top_nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/includes/top_nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/public/js/responsive.bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/public/js/responsive.bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/public/js/vfs_fonts.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/public/js/vfs_fonts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/super_admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/super_admin/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="d4da8e39-c242-418c-9f6c-94902eef3eb8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -122,47 +17,82 @@
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
     <expand>
       <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="AD14@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="master@localhost" type="e3449647:DbNodeDescriptor" />
       </path>
       <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="AD14@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="AD14: database" type="bdf80c8a:MssqlImplModel$Database" />
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="master@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="master" type="e3449647:DbNodeDescriptor" />
       </path>
       <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="AD14@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="AD14: database" type="bdf80c8a:MssqlImplModel$Database" />
-        <item name="dbo: schema" type="3adcb6a6:MssqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="AD14@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="AD14: database" type="bdf80c8a:MssqlImplModel$Database" />
-        <item name="dbo: schema" type="3adcb6a6:MssqlImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="master@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="master" type="e3449647:DbNodeDescriptor" />
+        <item name="dbo" type="e3449647:DbNodeDescriptor" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="them.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/hanhvi_vipham/them.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1278">
+              <caret line="114" column="26" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#1492#1499#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#6;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#7;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#8;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sua.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/hanhvi_vipham/sua.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="246" column="35" lean-forward="true" selection-start-line="246" selection-start-column="35" selection-end-line="246" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="left_nav.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/includes/left_nav.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="87" column="100" lean-forward="false" selection-start-line="87" selection-start-column="100" selection-end-line="87" selection-end-column="100" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="jsf" />
         <option value="Jsp File" />
         <option value="Class" />
       </list>
@@ -170,12 +100,13 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Nex</find>
-      <find>&lt;label</find>
+      <find>BienBan.Id = @IdBB</find>
     </findStrings>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -184,50 +115,50 @@
         <option value="$PROJECT_DIR$/src/ad14/controllers/IndexServlet.java" />
         <option value="$PROJECT_DIR$/src/ad14/models/dao/Dao_CanhSatGiaoThong.java" />
         <option value="$PROJECT_DIR$/src/ad14/models/entities/CanhSatGiaoThong.java" />
+        <option value="$PROJECT_DIR$/src/ad14/utils/JSPLocation.java" />
+        <option value="$PROJECT_DIR$/web/super_admin/index.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" />
         <option value="$PROJECT_DIR$/web/admin/index.jsp" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/SuperAdminServlet.java" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" />
+        <option value="$PROJECT_DIR$/web/includes/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/SuperAdminServlet.java" />
+        <option value="$PROJECT_DIR$/web/admin/index.jsp" />
+        <option value="$PROJECT_DIR$/web/includes/top_nav.jsp" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" />
+        <option value="$PROJECT_DIR$/src/ad14/models/dao/Dao_CanhSatGiaoThong.java" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" />
+        <option value="$PROJECT_DIR$/web/bien_ban/index.jsp" />
+        <option value="$PROJECT_DIR$/web/bien_ban/tao_moi.jsp" />
+        <option value="$PROJECT_DIR$/src/ad14/models/services/serviceCSGT.java" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" />
+        <option value="$PROJECT_DIR$/src/ad14/models/services/ServiceCSGT.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7ad4919b-ee46-4ca6-a00c-898df631815f/console.sql" />
+        <option value="$PROJECT_DIR$/web/image/index.jsp.xhtml" />
+        <option value="$PROJECT_DIR$/src/ad14/models/entities/HinhAnh.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/ad14/models/dao/Dao_HinhAnh.java" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/ImageViewServlet.java" />
+        <option value="$PROJECT_DIR$/web/image/index.jsp" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6f2a6eba-8502-4b9c-9480-0b82df0a6c48/console.sql" />
+        <option value="$PROJECT_DIR$/src/ad14/utils/ThongTinCSDL.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6f2a6eba-8502-4b9c-9480-0b82df0a6c48/console_1.sql" />
+        <option value="$PROJECT_DIR$/web/includes/head.jsp" />
+        <option value="$PROJECT_DIR$/web/hanhvi_vipham/index.jsp" />
+        <option value="$PROJECT_DIR$/web/hanhvi_vipham/xoa.jsp" />
+        <option value="$PROJECT_DIR$/web/hanhvi_vipham/timkiem.jsp" />
         <option value="$PROJECT_DIR$/web/includes/top_nav.jsp" />
         <option value="$PROJECT_DIR$/web/includes/top_nav.jsp" />
         <option value="$PROJECT_DIR$/web/includes/java_script.jsp" />
-        <option value="$PROJECT_DIR$/web/admin/index.jsp" />
-        <option value="$PROJECT_DIR$/web/includes/top_nav.jsp" />
-        <option value="$PROJECT_DIR$/src/ad14/models/dao/Dao_CanhSatGiaoThong.java" />
-        <option value="$PROJECT_DIR$/web/bien_ban/tao_moi.jsp" />
-        <option value="$PROJECT_DIR$/src/ad14/models/services/serviceCSGT.java" />
-        <option value="$PROJECT_DIR$/src/ad14/models/services/ServiceCSGT.java" />
-        <option value="$PROJECT_DIR$/src/ad14/controllers/BienBanServlet.java" />
-        <option value="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" />
-        <option value="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" />
-        <option value="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" />
-        <option value="$PROJECT_DIR$/src/ad14/controllers/SuperAdminServlet.java" />
-        <option value="$PROJECT_DIR$/src/ad14/controllers/SuperAdminServlet.java" />
-        <option value="$PROJECT_DIR$/web/includes/head.jsp" />
-        <option value="$PROJECT_DIR$/web/bien_ban/index.jsp" />
-        <option value="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" />
-        <option value="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" />
-        <option value="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" />
-        <option value="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" />
-        <option value="$PROJECT_DIR$/web/quyet_dinh/index.jsp" />
-        <option value="$PROJECT_DIR$/web/quyet_dinh/tao_moi.jsp" />
-        <option value="$PROJECT_DIR$/src/ad14/controllers/QuyetDinhServlet.java" />
-        <option value="$PROJECT_DIR$/src/ad14/utils/WebURI.java" />
-        <option value="$PROJECT_DIR$/src/ad14/utils/JSPLocation.java" />
-        <option value="$PROJECT_DIR$/src/ad14/controllers/BienLaiServlet.java" />
+        <option value="$PROJECT_DIR$/web/hanhvi_vipham/them.jsp" />
+        <option value="$PROJECT_DIR$/web/hanhvi_vipham/sua.jsp" />
         <option value="$PROJECT_DIR$/web/includes/left_nav.jsp" />
         <option value="$PROJECT_DIR$/web/includes/left_nav.jsp" />
         <option value="$PROJECT_DIR$/web/includes/left_nav.jsp" />
-        <option value="$PROJECT_DIR$/src/ad14/controllers/ThemBienLaiServlet.java" />
-        <option value="$PROJECT_DIR$/src/ad14/models/services/ServiceBienLai.java" />
-        <option value="$PROJECT_DIR$/src/ad14/models/dao/Dao_BienLaiThuPhat.java" />
-        <option value="$PROJECT_DIR$/web/includes/footer.jsp" />
-        <option value="$PROJECT_DIR$/web/super_admin/index.jsp" />
-        <option value="$PROJECT_DIR$/web/login.jsp" />
-        <option value="$PROJECT_DIR$/web/bien_lai/suabienlai.jsp" />
-        <option value="$PROJECT_DIR$/web/bien_lai/thembienlai.jsp" />
-        <option value="$PROJECT_DIR$/web/bien_lai/xembienlai.jsp" />
-        <option value="$PROJECT_DIR$/src/ad14/utils/ThongBao.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/ad14/controllers/TrangChuServlet.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
       </list>
     </option>
   </component>
@@ -244,42 +175,30 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="3" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AD14" type="58d84e3e:PackageViewProjectNode" />
-              <item name="AD14" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AD14" type="1abcf292:AndroidViewProjectNode" />
-              <item name="AD14" type="e9137016:NonAndroidModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,46 +220,70 @@
             <path>
               <item name="AD14" type="b2602c69:ProjectViewProjectNode" />
               <item name="AD14" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ad14" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AD14" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AD14" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AD14" type="b2602c69:ProjectViewProjectNode" />
               <item name="AD14" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AD14" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AD14" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="hanhvi_vipham" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AD14" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AD14" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AD14" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AD14" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AD14" type="58d84e3e:PackageViewProjectNode" />
+              <item name="AD14" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="SQL Server (Microsoft)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../New folder/AD14" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Facets" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\AD14\web\quyet_dinh" />
       <recent name="E:\AD14\src\ad14\models\entities" />
       <recent name="E:\AD14\web\public\css" />
       <recent name="E:\AD14\web\public\js" />
       <recent name="E:\AD14\web\super_admin" />
+      <recent name="E:\AD14\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -355,49 +298,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
+  <component name="RunManager" selected="Tomcat Server.index.jsp (1)">
     <configuration name="Tomcat 9.0.6" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.6" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="AD14:war exploded">
@@ -414,9 +317,25 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="58118" />
       </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -453,6 +372,162 @@
         </option>
       </method>
     </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="index.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.6" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="AD14:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_(1)_AD14" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="AD14:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.6" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/hanhvi_vipham/index.jsp" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="AD14:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_AD14" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="AD14:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 9.0.6" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (1)" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -468,472 +543,423 @@
       <workItem from="1524143090087" duration="1464000" />
       <workItem from="1524149441854" duration="5016000" />
       <workItem from="1524182615791" duration="6575000" />
-      <workItem from="1524269751644" duration="6144000" />
-      <workItem from="1524282987451" duration="1745000" />
-      <workItem from="1524619778069" duration="3202000" />
-      <workItem from="1524787209801" duration="5751000" />
-      <workItem from="1524810906873" duration="4000" />
-      <workItem from="1524831220725" duration="663000" />
-      <workItem from="1525246039756" duration="228000" />
-      <workItem from="1525392865700" duration="2434000" />
-      <workItem from="1525683147719" duration="5492000" />
-      <workItem from="1525740844156" duration="8024000" />
-      <workItem from="1525785355233" duration="250000" />
-      <workItem from="1525850822407" duration="3420000" />
-      <workItem from="1525877027186" duration="4267000" />
+      <workItem from="1524269751644" duration="2841000" />
+      <workItem from="1524274797380" duration="5279000" />
+      <workItem from="1524583493834" duration="2704000" />
+      <workItem from="1524671796581" duration="596000" />
+      <workItem from="1524815771805" duration="2983000" />
+      <workItem from="1525076740544" duration="2166000" />
+      <workItem from="1525162901020" duration="4339000" />
+      <workItem from="1525360805436" duration="1231000" />
+      <workItem from="1525588360466" duration="2742000" />
+      <workItem from="1525591891872" duration="3144000" />
+      <workItem from="1526006968503" duration="2418000" />
+      <workItem from="1526009807466" duration="2580000" />
+      <workItem from="1526013307860" duration="8664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76194000" />
+    <option name="totallyTimeSpent" value="69440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50378215" side_tool="true" weight="0.32843137" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32843137" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" weight="0.32838285" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.24962178" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" weight="0.32730263" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32843137" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.66993463" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="5" sideWeight="0.49621785" visible="true" weight="0.32843137" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49673203" visible="true" weight="0.20196672" />
-      <window_info id="Web" order="2" sideWeight="0.503268" side_tool="true" weight="0.20196672" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Preview" order="8" weight="0.32980332" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32843137" />
-      <window_info id="Build Variants" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="SQL Generator" order="8" weight="0.32838285" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17397882" />
-      <window_info anchor="bottom" id="Gradle Console" order="6" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
-      <window_info anchor="bottom" id="Build" order="14" weight="0.58388156" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.24962178" />
-      <window_info anchor="bottom" id="TODO" order="13" weight="0.32730263" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32838285" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.32843137" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5060514" side_tool="true" weight="0.5620915" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.49394855" weight="0.56085527" />
-      <window_info anchor="right" id="Gradle" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" weight="0.32838285" />
-      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32843137" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.3267974" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info id="Captures" order="7" weight="0.24962178" />
-      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32843137" />
-      <window_info anchor="bottom" id="Android Profiler" order="0" show_stripe_button="false" weight="0.32843137" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11653543" sideWeight="0.5204978" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11653543" sideWeight="0.4795022" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16983895" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13909224" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/CSV-Groovy.csv.groovy" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema/Generate POJOs.groovy" />
-    <entry file="jar://C:/apache-tomcat-9.0.6/lib/servlet-api.jar!/javax/servlet/ServletContext.class">
+    <entry file="file://$PROJECT_DIR$/web/super_admin/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        <state relative-caret-position="595">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/utils/KetNoiCSDL.java">
+    <entry file="jar://C:/apache-tomcat-9.0.6/lib/servlet-api.jar!/javax/servlet/ServletContext.class" />
+    <entry file="file://$PROJECT_DIR$/src/ad14/models/entities/BienBan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="59" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/utils/ThongTinCSDL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        <state relative-caret-position="-561">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ad14/models/entities/BienLaiThuPhat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-224">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f8a93225-ec49-40a7-bcea-0ce7e52bb9c0/database/AD14/schema/dbo/table/CoQuan.sql" />
-    <entry file="uml://DATABASE/f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.DATABASE:AD14" />
-    <entry file="file://$PROJECT_DIR$/src/ad14/models/entities/BienBan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f8a93225-ec49-40a7-bcea-0ce7e52bb9c0/database/AD14/schema/dbo/table/CanhSatGiaoThong">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ad14/models/services/ServiceCSGT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="204">
+          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/includes/top_nav.jsp">
+    <entry file="das://f8a93225-ec49-40a7-bcea-0ce7e52bb9c0/database/AD14/schema/dbo/table/CanhSatGiaoThong" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7ad4919b-ee46-4ca6-a00c-898df631815f/console.sql" />
+    <entry file="file://$PROJECT_DIR$/src/ad14/utils/JSPLocation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="78" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
+        <state relative-caret-position="153">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ad14/models/entities/MinhChung.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/sql/Connection.java" />
+    <entry file="file://$PROJECT_DIR$/src/ad14/models/entities/HinhAnh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="78" column="32" lean-forward="false" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ad14/controllers/SuperAdminServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="25" column="59" lean-forward="true" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/includes/java_script.jsp">
+    <entry file="file://$PROJECT_DIR$/web/image/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        <state relative-caret-position="255">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/includes/head.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+    <entry file="das://7ad4919b-ee46-4ca6-a00c-898df631815f/database/AD14/schema/dbo/table/HinhAnh" />
+    <entry file="das://table:/8075585c/6f2a6eba-8502-4b9c-9480-0b82df0a6c48/master.dbo.VaiTro">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/QuyetDinhServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="36" />
+    <entry file="das://table:/8075585c/6f2a6eba-8502-4b9c-9480-0b82df0a6c48/master.dbo.CoQuan">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/models/dao/Dao_CanhSatGiaoThong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/BienBanServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+    <entry file="das://table:/8075585c/6f2a6eba-8502-4b9c-9480-0b82df0a6c48/master.dbo.AD14_dbo_CoQuan">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="%%physloc%%" enabled="false" />
+          </column-attributes>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+        <state relative-caret-position="51">
+          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/utils/JSPLocation.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6f2a6eba-8502-4b9c-9480-0b82df0a6c48/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="0">
+          <caret line="0" column="59" lean-forward="false" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/includes/left_nav.jsp">
+    <entry file="file://$PROJECT_DIR$/src/ad14/models/dao/Dao_HinhAnh.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+        <state relative-caret-position="17">
+          <caret line="29" column="53" lean-forward="false" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/XoaBienLaiServlet.java">
+    <entry file="das://src:table:/8075585c/6f2a6eba-8502-4b9c-9480-0b82df0a6c48/master.dbo.CanhSatGiaoThong">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="37" />
+        <state relative-caret-position="187">
+          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/SuaBienLaiServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+    <entry file="das://table:/8075585c/6f2a6eba-8502-4b9c-9480-0b82df0a6c48/master.dbo.CanCuQuyetDinh">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="%%physloc%%" enabled="false" />
+          </column-attributes>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/BienLaiServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="33" column="82" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
+    <entry file="das://table:/8075585c/6f2a6eba-8502-4b9c-9480-0b82df0a6c48/master.dbo.CanhSatGiaoThong">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/models/dao/Dao_BienLaiThuPhat.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c1a1698d-8ec4-4c3b-afaa-85c840e4a04c/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="113" column="41" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/models/services/ServiceBienLai.java">
+    <entry file="file://$PROJECT_DIR$/src/ad14/utils/KetNoiCSDL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        <state relative-caret-position="187">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/ThemBienLaiServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/ad14/utils/ThongTinCSDL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-          <folding>
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="103" lean-forward="false" selection-start-line="3" selection-start-column="103" selection-end-line="3" selection-end-column="103" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/models/entities/CanhSatGiaoThong.java">
+    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/ImageViewServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="114" column="5" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="19" column="80" lean-forward="false" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/includes/footer.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="98" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="98" />
+        <state relative-caret-position="799">
+          <caret line="47" column="38" lean-forward="false" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6f2a6eba-8502-4b9c-9480-0b82df0a6c48/console_1.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="40" column="106" selection-start-line="40" selection-start-column="106" selection-end-line="40" selection-end-column="106" />
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/ad14/models/dao/Dao_CanhSatGiaoThong.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="65" column="51" lean-forward="true" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
+        <state relative-caret-position="17">
+          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/bien_ban/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="111" column="7" lean-forward="true" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="7" />
+        <state relative-caret-position="-218">
+          <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/bien_ban/tao_moi.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="631" column="8" selection-start-line="631" selection-start-column="8" selection-end-line="631" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bien_lai/suabienlai.jsp">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="51" />
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/bien_lai/thembienlai.jsp">
+    <entry file="file://$PROJECT_DIR$/web/admin/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="90" column="51" selection-start-line="90" selection-start-column="51" selection-end-line="90" selection-end-column="51" />
+        <state relative-caret-position="884">
+          <caret line="67" column="10" lean-forward="false" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/bien_lai/xembienlai.jsp">
+    <entry file="file://$PROJECT_DIR$/web/bien_ban/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="87" column="51" selection-start-line="87" selection-start-column="51" selection-end-line="87" selection-end-column="51" />
+        <state relative-caret-position="204">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/quyet_dinh/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="111" column="7" lean-forward="true" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/quyet_dinh/tao_moi.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="512" lean-forward="true" selection-start-line="512" selection-end-line="512" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/super_admin/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="264" lean-forward="true" selection-start-line="264" selection-end-line="264" />
+        <state relative-caret-position="391">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ad14/utils/ThongBao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="92" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/TrangChuServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ad14/utils/WebURI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="60" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/TrangChuServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="35" />
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/ad14/models/entities/HanhViViPham.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1802">
-          <caret line="875" column="145" selection-start-line="875" selection-start-column="145" selection-end-line="875" selection-end-column="145" />
+        <state relative-caret-position="17">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/utils/ThongBao.java">
+    <entry file="file://$PROJECT_DIR$/web/includes/top_nav.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="104" selection-start-line="3" selection-start-column="104" selection-end-line="3" selection-end-column="104" />
+        <state relative-caret-position="255">
+          <caret line="18" column="64" lean-forward="false" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/web/hanhvi_vipham/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+        <state relative-caret-position="17">
+          <caret line="20" column="65" lean-forward="false" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/includes/head.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+        <state relative-caret-position="289">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+    <entry file="file://$PROJECT_DIR$/web/includes/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="70" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
+        <state relative-caret-position="221">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/includes/java_script.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/hanhvi_vipham/timkiem.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="142" column="18" lean-forward="true" selection-start-line="142" selection-start-column="18" selection-end-line="142" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/hanhvi_vipham/xoa.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/hanhvi_vipham/them.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1278">
+          <caret line="114" column="26" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1492#1499#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#6;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#7;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#8;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/hanhvi_vipham/sua.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="246" column="35" lean-forward="true" selection-start-line="246" selection-start-column="35" selection-end-line="246" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/includes/left_nav.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="87" column="100" lean-forward="false" selection-start-line="87" selection-start-column="100" selection-end-line="87" selection-end-column="100" />
+          <folding />
         </state>
       </provider>
     </entry>

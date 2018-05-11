@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <footer>
     <div class="pull-right">
-        &copy Team AD14 <%= new java.text.SimpleDateFormat("yyyy").format(new java.util.Date()) %>
+        &copy Kenny.com <%= new java.text.SimpleDateFormat("yyyy").format(new java.util.Date()) %>
     </div>
     <div class="clearfix"></div>
 </footer>

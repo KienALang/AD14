@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <%@include file="includes/head.jsp" %>
+    <%@include file="includes/head.jsp"%>
 </head>
 <body class="login">
 <div>
@@ -19,27 +19,25 @@
                     <h1>ĐĂNG NHẬP</h1>
                     <% String key = (String) request.getAttribute("message");
                         if (key != null) {
-                            out.print(key);
+                            out.print("This is the key Word you've entered: " + key);
                         }
                     %>
                     <div>
-                        <input type="text" name="tai_khoan" class="form-control" placeholder="Tên tài khoản"
-                               required=""/>
+                        <input type="text" name="tai_khoan" class="form-control" placeholder="Tên tài khoản" required="" />
                     </div>
                     <div>
-                        <input type="password" name="mat_khau" class="form-control" placeholder="Mật khẩu" required=""/>
+                        <input type="password" name="mat_khau" class="form-control" placeholder="Mật khẩu" required="" />
                     </div>
-                    <div class="text-center">
-                        <input style="float: none; margin-left: 0;" type="submit" value="Đăng nhập" class="btn btn-lg">
+                    <div>
+                        <input type="submit" value="Đăng nhập" class="btn btn-lg">
                     </div>
 
                     <div class="clearfix"></div>
 
                     <div class="separator">
                         <div>
-                            <a href='<%=WebURI.INDEX_01%>'><h1><i class="fa fa-shield"></i> AD14</h1></a>
-                            <p>©<%= new java.text.SimpleDateFormat("yyyy").format(new java.util.Date()) %> All Rights
-                                Reserved. Our team use bootstrap 3</p>
+                            <h1><i class="fa fa-shield"></i> AD14</h1>
+                            <p>©2018 All Rights Reserved. Our team use bootstrap 3</p>
                         </div>
                     </div>
                 </form>

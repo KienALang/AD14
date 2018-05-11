@@ -20,10 +20,11 @@ public class SuperAdminServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // check the session of csgt if it's exists
-        CanhSatGiaoThong csgt = (CanhSatGiaoThong) request.getSession().getAttribute("csgt");
+        CanhSatGiaoThong csgt = (CanhSatGiaoThong)request.getSession().getAttribute("csgt");
 
         if (csgt != null && csgt.getIdVaiTro() == VaiTro.SUPER_ADMIN) {
-            response.sendRedirect(JSPLocation.SUPER_ADMIN);
+            request.setAttribute("csgt", csgt);
+            getServletContext().getRequestDispatcher(JSPLocation.SUPER_ADMIN).forward(request, response);
         } else {
             response.sendRedirect(WebURI.DANG_NHAP);
         }

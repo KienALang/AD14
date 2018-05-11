@@ -3,45 +3,45 @@ package ad14.models.entities;
 
 public class CoQuan {
 
-    private long idCoQuan;
-    private String tenCoQuan;
-    private String diaChi;
-    private String dienThoai;
+  private long idCoQuan;
+  private String tenCoQuan;
+  private String diaChi;
+  private String dienThoai;
 
 
-    public long getIdCoQuan() {
-        return idCoQuan;
-    }
+  public long getIdCoQuan() {
+    return idCoQuan;
+  }
 
-    public void setIdCoQuan(long idCoQuan) {
-        this.idCoQuan = idCoQuan;
-    }
-
-
-    public String getTenCoQuan() {
-        return tenCoQuan;
-    }
-
-    public void setTenCoQuan(String tenCoQuan) {
-        this.tenCoQuan = tenCoQuan;
-    }
+  public void setIdCoQuan(long idCoQuan) {
+    this.idCoQuan = idCoQuan;
+  }
 
 
-    public String getDiaChi() {
-        return diaChi;
-    }
+  public String getTenCoQuan() {
+    return tenCoQuan;
+  }
 
-    public void setDiaChi(String diaChi) {
-        this.diaChi = diaChi;
-    }
+  public void setTenCoQuan(String tenCoQuan) {
+    this.tenCoQuan = tenCoQuan;
+  }
 
 
-    public String getDienThoai() {
-        return dienThoai;
-    }
+  public String getDiaChi() {
+    return diaChi;
+  }
 
-    public void setDienThoai(String dienThoai) {
-        this.dienThoai = dienThoai;
-    }
+  public void setDiaChi(String diaChi) {
+    this.diaChi = diaChi;
+  }
+
+
+  public String getDienThoai() {
+    return dienThoai;
+  }
+
+  public void setDienThoai(String dienThoai) {
+    this.dienThoai = dienThoai;
+  }
 
 }

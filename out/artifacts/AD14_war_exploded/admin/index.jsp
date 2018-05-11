@@ -63,11 +63,11 @@
         <!-- /page content -->
 
         <!-- footer content -->
-        <%@include file="../includes/footer.jsp" %>
+        <%@include file="../includes/footer.jsp"%>
         <!-- /footer content -->
     </div>
 </div>
-<%@include file="../includes/java_script.jsp" %>
+<%@include file="../includes/java_script.jsp"%>
 
 </body>
 </html>

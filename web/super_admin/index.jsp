@@ -46,196 +46,12 @@
             <!-- /top tiles -->
 
             <div class="row">
-                <h1 class="text-center">Chào mừng Đại tá <%=csgt.getHoVaTen()%> đăng nhập vào hệ thống</h1>
+                <h1>Chào mừng Đại tá đăng nhập vào hệ thống</h1>
             </div>
 
             <br/>
 
             <div class="row">
-                <div class="col-md-12">
-                    <div class="x_panel">
-                        <div class="x_content">
-                            <div class="row">
-                                <div class="col-md-12 col-sm-12 col-xs-12 text-center">
-                                    <ul class="pagination pagination-split">
-                                        <li><a href="#">A</a></li>
-                                        <li><a href="#">B</a></li>
-                                        <li><a href="#">C</a></li>
-                                        <li><a href="#">D</a></li>
-                                        <li><a href="#">E</a></li>
-                                        <li>...</li>
-                                        <li><a href="#">W</a></li>
-                                        <li><a href="#">X</a></li>
-                                        <li><a href="#">Y</a></li>
-                                        <li><a href="#">Z</a></li>
-                                    </ul>
-                                </div>
-
-                                <div class="clearfix"></div>
-
-                                <div class="col-md-4 col-sm-4 col-xs-12 profile_details">
-                                    <div class="well profile_view">
-                                        <div class="col-sm-12">
-                                            <h4 class="brief"><i>Thượng tá</i></h4>
-                                            <div class="left col-xs-7">
-                                                <h2>Trần Nguyễn Thành Luân</h2>
-                                                <ul class="list-unstyled">
-                                                    <li><i class="fa fa-calendar"></i> Ngày sinh: 12/02/1996</li>
-                                                    <li><i class="fa fa-home"></i> Quê quán: Huế</li>
-                                                    <li><i class="fa fa-phone"></i> Điện thoại: 0124 365 145</li>
-                                                    <li><i class="fa fa-institution"></i> Cơ quan: Sở GTVT Đà Nẵng</li>
-                                                </ul>
-                                            </div>
-                                            <div class="right col-xs-5 text-center">
-                                                <img src="/public/images/img.jpg" alt=""
-                                                     class="img-circle img-responsive">
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-12 bottom text-center">
-                                            <div class="col-xs-12 col-sm-6 emphasis">
-                                                <p class="ratings">
-                                                    <a>4.0</a>
-                                                    <a href="#"><span class="fa fa-star"></span></a>
-                                                    <a href="#"><span class="fa fa-star"></span></a>
-                                                    <a href="#"><span class="fa fa-star"></span></a>
-                                                    <a href="#"><span class="fa fa-star"></span></a>
-                                                    <a href="#"><span class="fa fa-star-o"></span></a>
-                                                </p>
-                                            </div>
-                                            <div class="col-xs-12 col-sm-6 emphasis">
-                                                <button type="button" class="btn btn-danger btn-xs">
-                                                    <i class="fa fa-trash-o"></i></button>
-                                                <button type="button" class="btn btn-primary btn-xs">
-                                                    <i class="fa fa-edit"> </i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 col-sm-4 col-xs-12 profile_details">
-                                    <div class="well profile_view">
-                                        <div class="col-sm-12">
-                                            <h4 class="brief"><i>Thượng tá</i></h4>
-                                            <div class="left col-xs-7">
-                                                <h2>Tạ Trung Anh</h2>
-                                                <ul class="list-unstyled">
-                                                    <li><i class="fa fa-calendar"></i> Ngày sinh: 12/02/1996</li>
-                                                    <li><i class="fa fa-home"></i> Quê quán: Đà Nẵng</li>
-                                                    <li><i class="fa fa-phone"></i> Điện thoại: 0124 365 145</li>
-                                                    <li><i class="fa fa-institution"></i> Cơ quan: Sở GTVT Đà Nẵng</li>
-                                                </ul>
-                                            </div>
-                                            <div class="right col-xs-5 text-center">
-                                                <img src="/public/images/img.jpg" alt=""
-                                                     class="img-circle img-responsive">
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-12 bottom text-center">
-                                            <div class="col-xs-12 col-sm-6 emphasis">
-                                                <p class="ratings">
-                                                    <a>4.0</a>
-                                                    <a href="#"><span class="fa fa-star"></span></a>
-                                                    <a href="#"><span class="fa fa-star"></span></a>
-                                                    <a href="#"><span class="fa fa-star"></span></a>
-                                                    <a href="#"><span class="fa fa-star"></span></a>
-                                                    <a href="#"><span class="fa fa-star-o"></span></a>
-                                                </p>
-                                            </div>
-                                            <div class="col-xs-12 col-sm-6 emphasis">
-                                                <button type="button" class="btn btn-danger btn-xs">
-                                                    <i class="fa fa-trash-o"></i></button>
-                                                <button type="button" class="btn btn-primary btn-xs">
-                                                    <i class="fa fa-edit"> </i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 col-sm-4 col-xs-12 profile_details">
-                                    <div class="well profile_view">
-                                        <div class="col-sm-12">
-                                            <h4 class="brief"><i>Thượng tá</i></h4>
-                                            <div class="left col-xs-7">
-                                                <h2>Nguyễn Quốc Hoàng</h2>
-                                                <ul class="list-unstyled">
-                                                    <li><i class="fa fa-calendar"></i> Ngày sinh: 12/02/1996</li>
-                                                    <li><i class="fa fa-home"></i> Quê quán: Quảng Bình</li>
-                                                    <li><i class="fa fa-phone"></i> Điện thoại: 0124 365 145</li>
-                                                    <li><i class="fa fa-institution"></i> Cơ quan: Sở GTVT Đà Nẵng</li>
-                                                </ul>
-                                            </div>
-                                            <div class="right col-xs-5 text-center">
-                                                <img src="/public/images/img.jpg" alt=""
-                                                     class="img-circle img-responsive">
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-12 bottom text-center">
-                                            <div class="col-xs-12 col-sm-6 emphasis">
-                                                <p class="ratings">
-                                                    <a>4.0</a>
-                                                    <a href="#"><span class="fa fa-star"></span></a>
-                                                    <a href="#"><span class="fa fa-star"></span></a>
-                                                    <a href="#"><span class="fa fa-star"></span></a>
-                                                    <a href="#"><span class="fa fa-star"></span></a>
-                                                    <a href="#"><span class="fa fa-star-o"></span></a>
-                                                </p>
-                                            </div>
-                                            <div class="col-xs-12 col-sm-6 emphasis">
-                                                <button type="button" class="btn btn-danger btn-xs">
-                                                    <i class="fa fa-trash-o"></i></button>
-                                                <button type="button" class="btn btn-primary btn-xs">
-                                                    <i class="fa fa-edit"> </i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 col-sm-4 col-xs-12 profile_details">
-                                    <div class="well profile_view">
-                                        <div class="col-sm-12">
-                                            <h4 class="brief"><i>Thượng tá</i></h4>
-                                            <div class="left col-xs-7">
-                                                <h2>Phan Thanh Nguyên</h2>
-                                                <ul class="list-unstyled">
-                                                    <li><i class="fa fa-calendar"></i> Ngày sinh: 12/02/1996</li>
-                                                    <li><i class="fa fa-home"></i> Quê quán: Quảng Trị</li>
-                                                    <li><i class="fa fa-phone"></i> Điện thoại: 0124 365 145</li>
-                                                    <li><i class="fa fa-institution"></i> Cơ quan: Sở GTVT Đà Nẵng</li>
-                                                </ul>
-                                            </div>
-                                            <div class="right col-xs-5 text-center">
-                                                <img src="/public/images/img.jpg" alt=""
-                                                     class="img-circle img-responsive">
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-12 bottom text-center">
-                                            <div class="col-xs-12 col-sm-6 emphasis">
-                                                <p class="ratings">
-                                                    <a>4.0</a>
-                                                    <a href="#"><span class="fa fa-star"></span></a>
-                                                    <a href="#"><span class="fa fa-star"></span></a>
-                                                    <a href="#"><span class="fa fa-star"></span></a>
-                                                    <a href="#"><span class="fa fa-star"></span></a>
-                                                    <a href="#"><span class="fa fa-star-o"></span></a>
-                                                </p>
-                                            </div>
-                                            <div class="col-xs-12 col-sm-6 emphasis">
-                                                <button type="button" class="btn btn-danger btn-xs">
-                                                    <i class="fa fa-trash-o"></i></button>
-                                                <button type="button" class="btn btn-primary btn-xs">
-                                                    <i class="fa fa-edit"> </i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
 
 
@@ -246,7 +62,12 @@
         <!-- /page content -->
 
         <!-- footer content -->
-        <%@include file="../includes/footer.jsp" %>
+        <footer>
+            <div class="pull-right">
+                &copy Kenny.com 2018
+            </div>
+            <div class="clearfix"></div>
+        </footer>
         <!-- /footer content -->
     </div>
 </div>
