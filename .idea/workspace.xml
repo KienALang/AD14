@@ -7,110 +7,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4da8e39-c242-418c-9f6c-94902eef3eb8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/BienLaiServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/QuyetDinhServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/SuaBienLaiServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/ThemBienLaiServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/XoaBienLaiServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/models/dao/Dao_BienLaiThuPhat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/models/services/ServiceBienLai.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/bien_lai/suabienlai.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/bien_lai/thembienlai.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/bien_lai/xembienlai.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/quyet_dinh/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/quyet_dinh/tao_moi.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/BienLaiServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/QuyetDinhServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/SuaBienLaiServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/ThemBienLaiServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/XoaBienLaiServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AD14/ad14/models/dao/Dao_BienLaiThuPhat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AD14/ad14/models/services/ServiceBienLai.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ad14/controllers/BienLaiServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ad14/controllers/QuyetDinhServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ad14/controllers/SuaBienLaiServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ad14/controllers/ThemBienLaiServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ad14/controllers/XoaBienLaiServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ad14/models/dao/Dao_BienLaiThuPhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ad14/models/services/ServiceBienLai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bien_lai/suabienlai.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bien_lai/thembienlai.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/bien_lai/xembienlai.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/quyet_dinh/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/quyet_dinh/tao_moi.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ad14/controllers/AddImageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ad14/controllers/EditImageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ad14/controllers/ImageViewServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ad14/models/dao/Dao_HinhAnh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/hanhvi_vipham/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/hanhvi_vipham/sua.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/hanhvi_vipham/them.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/hanhvi_vipham/timkiem.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/hanhvi_vipham/xoa.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/hinh_anh/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/hinh_anh/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/hinh_anh/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/images/media.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/AdminServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/AdminServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/AuthenticationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/AuthenticationServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/BienBanServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/BienBanServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/TrangChuServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/controllers/TrangChuServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/utils/JSPLocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/utils/JSPLocation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/utils/ThongBao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/utils/ThongBao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/models/entities/HinhAnh.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/models/entities/HinhAnh.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/utils/WebURI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/utils/WebURI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/bien_ban/tao_moi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/bien_ban/tao_moi.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/includes/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/includes/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/includes/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/includes/head.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/includes/left_nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/includes/left_nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/includes/top_nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/includes/top_nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/public/css/custom.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/public/css/custom.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/public/js/responsive.bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/public/js/responsive.bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/public/js/vfs_fonts.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/public/js/vfs_fonts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/super_admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/super_admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/AdminServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/AdminServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/AuthenticationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/AuthenticationServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/BienBanServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/BienBanServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/TrangChuServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AD14/ad14/controllers/TrangChuServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AD14/ad14/utils/JSPLocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AD14/ad14/utils/JSPLocation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AD14/ad14/utils/ThongBao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AD14/ad14/utils/ThongBao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AD14/ad14/models/entities/HinhAnh.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AD14/ad14/models/entities/HinhAnh.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AD14/ad14/utils/WebURI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AD14/ad14/utils/WebURI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/controllers/BienBanServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/controllers/BienBanServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/controllers/SuperAdminServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/controllers/SuperAdminServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/BienBan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/BienBan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/BienLaiThuPhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/BienLaiThuPhat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/CanCuBienBan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/CanCuBienBan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/CanCuQuyetDinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/CanCuQuyetDinh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/ChungKien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/ChungKien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/CoQuan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/CoQuan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/Dieu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/Dieu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/GiayToTuyThan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/GiayToTuyThan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/GiayXacThucToChuc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/GiayXacThucToChuc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/HanhViViPham.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/HanhViViPham.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/HinhAnh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/HinhAnh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/HinhThucPhatBoSung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/HinhThucPhatBoSung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/KhoanTienPhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/KhoanTienPhat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/LapBienBan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/LapBienBan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/LoaiCanhSat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/LoaiCanhSat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/LoaiQuyetDinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/LoaiQuyetDinh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/LoaiVatBiTamGiu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/LoaiVatBiTamGiu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/MinhChung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/MinhChung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/NguoiBiThietHai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/NguoiBiThietHai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/NguoiChungKien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/NguoiChungKien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/NguoiDaiDienToChuc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/NguoiDaiDienToChuc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/NguoiViPham.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/NguoiViPham.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/QuyetDinhXuPhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/QuyetDinhXuPhat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/ThamQuyen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/ThamQuyen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/ToChucViPham.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/ToChucViPham.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/TrangThai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/TrangThai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/VaiTro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/VaiTro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/VatBiTamGiu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/VatBiTamGiu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/utils/JSPLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/utils/JSPLocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/utils/ThongBao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/utils/ThongBao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ad14/utils/WebURI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/utils/WebURI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/bien_ban/tao_moi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bien_ban/tao_moi.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/includes/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/includes/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/includes/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/includes/head.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/includes/left_nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/includes/left_nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/includes/top_nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/includes/top_nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/public/js/responsive.bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/public/js/responsive.bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/public/js/vfs_fonts.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/public/js/vfs_fonts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/super_admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/super_admin/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -154,17 +78,35 @@
         <item name="dbo: schema" type="3adcb6a6:MssqlImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="AD14@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="AD14: database" type="bdf80c8a:MssqlImplModel$Database" />
+        <item name="dbo: schema" type="3adcb6a6:MssqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="HinhAnh: table" type="a00791b9:MssqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -180,18 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ad14/controllers/controllers/IndexServlet.java" />
-        <option value="$PROJECT_DIR$/src/ad14/controllers/IndexServlet.java" />
-        <option value="$PROJECT_DIR$/src/ad14/models/dao/Dao_CanhSatGiaoThong.java" />
-        <option value="$PROJECT_DIR$/src/ad14/models/entities/CanhSatGiaoThong.java" />
-        <option value="$PROJECT_DIR$/web/admin/index.jsp" />
-        <option value="$PROJECT_DIR$/web/includes/top_nav.jsp" />
-        <option value="$PROJECT_DIR$/web/includes/top_nav.jsp" />
-        <option value="$PROJECT_DIR$/web/includes/java_script.jsp" />
-        <option value="$PROJECT_DIR$/web/admin/index.jsp" />
-        <option value="$PROJECT_DIR$/web/includes/top_nav.jsp" />
-        <option value="$PROJECT_DIR$/src/ad14/models/dao/Dao_CanhSatGiaoThong.java" />
-        <option value="$PROJECT_DIR$/web/bien_ban/tao_moi.jsp" />
         <option value="$PROJECT_DIR$/src/ad14/models/services/serviceCSGT.java" />
         <option value="$PROJECT_DIR$/src/ad14/models/services/ServiceCSGT.java" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/BienBanServlet.java" />
@@ -200,7 +130,6 @@
         <option value="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/SuperAdminServlet.java" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/SuperAdminServlet.java" />
-        <option value="$PROJECT_DIR$/web/includes/head.jsp" />
         <option value="$PROJECT_DIR$/web/bien_ban/index.jsp" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" />
@@ -209,25 +138,41 @@
         <option value="$PROJECT_DIR$/web/quyet_dinh/index.jsp" />
         <option value="$PROJECT_DIR$/web/quyet_dinh/tao_moi.jsp" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/QuyetDinhServlet.java" />
-        <option value="$PROJECT_DIR$/src/ad14/utils/WebURI.java" />
         <option value="$PROJECT_DIR$/src/ad14/utils/JSPLocation.java" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/BienLaiServlet.java" />
-        <option value="$PROJECT_DIR$/web/includes/left_nav.jsp" />
-        <option value="$PROJECT_DIR$/web/includes/left_nav.jsp" />
-        <option value="$PROJECT_DIR$/web/includes/left_nav.jsp" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/ThemBienLaiServlet.java" />
         <option value="$PROJECT_DIR$/src/ad14/models/services/ServiceBienLai.java" />
         <option value="$PROJECT_DIR$/src/ad14/models/dao/Dao_BienLaiThuPhat.java" />
         <option value="$PROJECT_DIR$/web/includes/footer.jsp" />
         <option value="$PROJECT_DIR$/web/super_admin/index.jsp" />
-        <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/web/bien_lai/suabienlai.jsp" />
         <option value="$PROJECT_DIR$/web/bien_lai/thembienlai.jsp" />
         <option value="$PROJECT_DIR$/web/bien_lai/xembienlai.jsp" />
         <option value="$PROJECT_DIR$/src/ad14/utils/ThongBao.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/TrangChuServlet.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/includes/head.jsp" />
+        <option value="$PROJECT_DIR$/web/hinh_anh/add.jsp" />
+        <option value="$PROJECT_DIR$/web/hinh_anh/edit.jsp" />
+        <option value="$PROJECT_DIR$/src/ad14/utils/WebURI.java" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/ViewImageServlet.java" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/EditImageServlet.java" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/AddImageServlet.java" />
+        <option value="$PROJECT_DIR$/web/includes/left_nav.jsp" />
+        <option value="$PROJECT_DIR$/web/includes/left_nav.jsp" />
+        <option value="$PROJECT_DIR$/web/includes/left_nav.jsp" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/ImageViewServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/hanhvi_vipham.jsp" />
+        <option value="$PROJECT_DIR$/web/hanhvi_vipham/index.jsp" />
+        <option value="$PROJECT_DIR$/web/hanhvi_vipham/sua.jsp" />
+        <option value="$PROJECT_DIR$/web/hanhvi_vipham/them.jsp" />
+        <option value="$PROJECT_DIR$/web/hanhvi_vipham/timkiem.jsp" />
+        <option value="$PROJECT_DIR$/web/hanhvi_vipham/xoa.jsp" />
+        <option value="$PROJECT_DIR$/src/ad14/models/entities/HinhAnh.java" />
+        <option value="$PROJECT_DIR$/src/ad14/models/dao/Dao_HinhAnh.java" />
+        <option value="$PROJECT_DIR$/web/hinh_anh/index.jsp" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
       </list>
     </option>
   </component>
@@ -280,6 +225,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,37 +236,12 @@
             <path>
               <item name="AD14" type="b2602c69:ProjectViewProjectNode" />
               <item name="AD14" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AD14" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AD14" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ad14" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AD14" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AD14" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ad14" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AD14" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AD14" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AD14" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AD14" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,14 +254,15 @@
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\AD14\web\public\images" />
       <recent name="E:\AD14\web\quyet_dinh" />
       <recent name="E:\AD14\src\ad14\models\entities" />
       <recent name="E:\AD14\web\public\css" />
       <recent name="E:\AD14\web\public\js" />
-      <recent name="E:\AD14\web\super_admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -481,81 +403,57 @@
       <workItem from="1525785355233" duration="250000" />
       <workItem from="1525850822407" duration="3420000" />
       <workItem from="1525877027186" duration="4267000" />
+      <workItem from="1526037615812" duration="2912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76194000" />
+    <option name="totallyTimeSpent" value="81858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50378215" side_tool="true" weight="0.32843137" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32843137" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" weight="0.32838285" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.24962178" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" weight="0.32730263" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32843137" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.66993463" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="5" sideWeight="0.49621785" visible="true" weight="0.32843137" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49673203" visible="true" weight="0.20196672" />
-      <window_info id="Web" order="2" sideWeight="0.503268" side_tool="true" weight="0.20196672" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Preview" order="8" weight="0.32980332" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32843137" />
-      <window_info id="Build Variants" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="SQL Generator" order="8" weight="0.32838285" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17397882" />
-      <window_info anchor="bottom" id="Gradle Console" order="6" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
-      <window_info anchor="bottom" id="Build" order="14" weight="0.58388156" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.24962178" />
-      <window_info anchor="bottom" id="TODO" order="13" weight="0.32730263" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32838285" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.32843137" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5060514" side_tool="true" weight="0.5620915" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.49394855" weight="0.56085527" />
-      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" weight="0.32838285" />
-      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32843137" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.3267974" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.24962178" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info id="Captures" order="7" weight="0.24962178" />
-      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.32730263" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32843137" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.3267974" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.32843137" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.1762481" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="right" id="Preview" order="8" weight="0.32980332" />
+      <window_info id="Build Variants" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.49394855" weight="0.56085527" />
+      <window_info id="Captures" order="7" weight="0.24962178" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32838285" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="SQL Generator" order="8" weight="0.32838285" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32843137" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.58388156" />
+      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Gradle Console" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Android Profiler" order="0" show_stripe_button="false" weight="0.32843137" />
     </layout>
   </component>
@@ -600,126 +498,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/CSV-Groovy.csv.groovy" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema/Generate POJOs.groovy" />
-    <entry file="jar://C:/apache-tomcat-9.0.6/lib/servlet-api.jar!/javax/servlet/ServletContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/utils/KetNoiCSDL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="59" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/utils/ThongTinCSDL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/models/entities/BienLaiThuPhat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f8a93225-ec49-40a7-bcea-0ce7e52bb9c0/database/AD14/schema/dbo/table/CoQuan.sql" />
-    <entry file="uml://DATABASE/f8a93225-ec49-40a7-bcea-0ce7e52bb9c0.DATABASE:AD14" />
-    <entry file="file://$PROJECT_DIR$/src/ad14/models/entities/BienBan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f8a93225-ec49-40a7-bcea-0ce7e52bb9c0/database/AD14/schema/dbo/table/CanhSatGiaoThong">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/models/services/ServiceCSGT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/includes/top_nav.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="78" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/SuperAdminServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="59" lean-forward="true" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/includes/java_script.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/includes/head.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/QuyetDinhServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/models/dao/Dao_CanhSatGiaoThong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/BienBanServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
           <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/utils/JSPLocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/includes/left_nav.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -762,10 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-          <folding>
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -881,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/utils/WebURI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="60" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -916,24 +687,230 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+        <state relative-caret-position="224">
+          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/includes/head.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+        <state relative-caret-position="391">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/ViewImageServlet.java" />
+    <entry file="file://$PROJECT_DIR$/web/hinh_anh/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ad14/utils/JSPLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/includes/top_nav.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="135" column="27" lean-forward="true" selection-start-line="135" selection-start-column="27" selection-end-line="135" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ad14/utils/WebURI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/includes/left_nav.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="64" column="57" lean-forward="true" selection-start-line="64" selection-start-column="57" selection-end-line="64" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/AddImageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/EditImageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/ImageViewServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/hanhvi_vipham.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/hanhvi_vipham/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#6;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#7;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#8;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/hanhvi_vipham/sua.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2805">
+          <caret line="294" lean-forward="true" selection-start-line="294" selection-end-line="294" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1767#1774#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#6;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#7;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#8;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#9;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/hanhvi_vipham/xoa.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#6;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#7;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#8;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#9;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/hanhvi_vipham/timkiem.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="160" lean-forward="true" selection-start-line="160" selection-end-line="160" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#2;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#3;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#4;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#5;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#6;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#7;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#6;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#7;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#8;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/hanhvi_vipham/them.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1912#1919#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#6;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#7;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#8;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ad14/models/entities/HinhAnh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="148" selection-start-line="15" selection-start-column="148" selection-end-line="15" selection-end-column="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ad14/models/dao/Dao_HinhAnh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/hinh_anh/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="67" column="59" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="70" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
+        <state relative-caret-position="289">
+          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
         </state>
       </provider>
     </entry>

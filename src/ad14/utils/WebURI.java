@@ -29,7 +29,9 @@ public class WebURI {
     public static final String QUYET_DINH_TAO_MOI = "/quyet-dinh/tao-moi";
 
     // Hinh Anh
-    public static final String HINH_ANH = "/hinh-anh";
+    public static final String HINH_ANH = "/image";
+    public static final String HINH_ANH_THEM = "/image/add";
+    public static final String HINH_ANH_SUA = "/image/edit";
 
     // Bao cao thong ke
     public static final String THONG_KE = "/thong-ke";

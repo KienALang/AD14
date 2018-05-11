@@ -18,9 +18,9 @@
                 <form name="dang_nhap" action="<%=WebURI.DANG_NHAP%>" method="post">
                     <h1>ĐĂNG NHẬP</h1>
                     <% String key = (String) request.getAttribute("message");
-                        if (key != null) {
-                            out.print(key);
-                        }
+                        if (key != null) { %>
+                            <div class="alert alert-danger"><%=key%></div>
+                        <% }
                     %>
                     <div>
                         <input type="text" name="tai_khoan" class="form-control" placeholder="Tên tài khoản"

@@ -62,8 +62,8 @@
 
                     <li><a><i class="fa fa-camera"></i> Hình ảnh vi phạm <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="#">Xem danh sách</a></li>
-                            <li><a href="#">Tạo mới</a></li>
+                            <li><a href="<%=WebURI.HINH_ANH%>">Xem danh sách</a></li>
+                            <li><a href="<%=WebURI.HINH_ANH_THEM%>">Tạo mới</a></li>
                         </ul>
                     </li>
 

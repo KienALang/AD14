@@ -19,4 +19,6 @@
 <!-- Font Awesome -->
 <link href="/public/css/font-awesome.min.css" rel="stylesheet">
 <!-- Custom Theme Style -->
-<link href="/public/css/custom.min.css" rel="stylesheet">
+<style type="text/css">
+    <%@include file="/public/css/custom.min.css"%>
+</style>

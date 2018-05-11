@@ -1,6 +1,8 @@
 package ad14.models.entities;
 
 
+import java.sql.Timestamp;
+
 public class HinhAnh {
 
     private long idHinhAnh;
@@ -11,6 +13,15 @@ public class HinhAnh {
     private String bienSoXe;
     private long idTrangThai;
 
+    public HinhAnh(long idHinhAnh, String duongDan, Timestamp thoiGianTao, String diaDiemChupHinh, String moTa, String bienSoXe, long idTrangThai) {
+        this.idHinhAnh = idHinhAnh;
+        this.duongDan = duongDan;
+        this.thoiGianTao = thoiGianTao;
+        this.diaDiemChupHinh = diaDiemChupHinh;
+        this.moTa = moTa;
+        this.bienSoXe = bienSoXe;
+        this.idTrangThai = idTrangThai;
+    }
 
     public long getIdHinhAnh() {
         return idHinhAnh;
