@@ -25,9 +25,9 @@
     </servlet-mapping>
 
     <servlet-mapping>
-        <servlet-name>AuthenticationServlet</servlet-name>
-        <url-pattern>/dang-xuat</url-pattern>
-    </servlet-mapping>
+    <servlet-name>AuthenticationServlet</servlet-name>
+    <url-pattern>/dang-xuat</url-pattern>
+</servlet-mapping>
     
     <servlet>
         <servlet-name>SuperAdminServlet</servlet-name>
@@ -49,25 +49,15 @@
         <url-pattern>/admin/image</url-pattern>
     </servlet-mapping>
 
-    <servlet>
-        <servlet-name>AddImageServlet</servlet-name>
-        <servlet-class>ad14.controllers.AddImageServlet</servlet-class>
-    </servlet>
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>ImageViewServlet</servlet-name>-->
+        <!--<url-pattern>/admin/image/add</url-pattern>-->
+    <!--</servlet-mapping>-->
 
-    <servlet-mapping>
-        <servlet-name>AddImageServlet</servlet-name>
-        <url-pattern>/admin/image/add</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>EditImageServlet</servlet-name>
-        <servlet-class>ad14.controllers.EditImageServlet</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>EditImageServlet</servlet-name>
-        <url-pattern>/admin/image/edit</url-pattern>
-    </servlet-mapping>
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>ImageViewServlet</servlet-name>-->
+        <!--<url-pattern>/admin/image/edit</url-pattern>-->
+    <!--</servlet-mapping>-->
 
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
