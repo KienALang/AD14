@@ -7,8 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4da8e39-c242-418c-9f6c-94902eef3eb8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ad14/controllers/TrangChuServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ad14/utils/ThongBao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/utils/ThongBao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,11 +61,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AuthenticationServlet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="59" column="27" lean-forward="true" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+            <state relative-caret-position="646">
+              <caret line="55" column="68" lean-forward="true" selection-start-line="55" selection-start-column="68" selection-end-line="55" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrangChuServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ad14/controllers/TrangChuServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="106" lean-forward="true" selection-start-line="38" selection-start-column="106" selection-end-line="38" selection-end-column="106" />
             </state>
           </provider>
         </entry>
@@ -93,7 +127,6 @@
         <option value="$PROJECT_DIR$/src/ad14/models/dao/Dao_CanhSatGiaoThong.java" />
         <option value="$PROJECT_DIR$/src/ad14/models/entities/CanhSatGiaoThong.java" />
         <option value="$PROJECT_DIR$/web/super_admin/index.jsp" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/admin/index.jsp" />
         <option value="$PROJECT_DIR$/web/includes/top_nav.jsp" />
         <option value="$PROJECT_DIR$/web/includes/top_nav.jsp" />
@@ -105,9 +138,7 @@
         <option value="$PROJECT_DIR$/web/bien_ban/tao_moi.jsp" />
         <option value="$PROJECT_DIR$/src/ad14/models/services/serviceCSGT.java" />
         <option value="$PROJECT_DIR$/src/ad14/utils/WebURI.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/ad14/models/services/ServiceCSGT.java" />
-        <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/BienBanServlet.java" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" />
@@ -124,6 +155,11 @@
         <option value="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/TrangChuServlet.java" />
+        <option value="$PROJECT_DIR$/src/ad14/utils/ThongBao.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -146,29 +182,31 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AD14" type="1abcf292:AndroidViewProjectNode" />
-              <item name="AD14" type="e9137016:NonAndroidModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
               <item name="AD14" type="58d84e3e:PackageViewProjectNode" />
               <item name="AD14" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AD14" type="1abcf292:AndroidViewProjectNode" />
+              <item name="AD14" type="e9137016:NonAndroidModuleNode" />
             </path>
           </expand>
           <select />
@@ -208,7 +246,7 @@
               <item name="AD14" type="b2602c69:ProjectViewProjectNode" />
               <item name="AD14" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="bien_ban" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -378,10 +416,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65110000" />
+    <option name="totallyTimeSpent" value="65529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5060514" side_tool="true" weight="0.5620915" />
@@ -401,28 +440,54 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.3267974" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.32843137" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17397882" />
-      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.3267974" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32843137" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49673203" visible="true" weight="0.20196672" />
+      <window_info id="Web" order="2" sideWeight="0.503268" side_tool="true" weight="0.20196672" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info id="Build Variants" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.49394855" weight="0.56085527" />
-      <window_info id="Captures" order="7" weight="0.24962178" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32838285" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.32843137" />
-      <window_info anchor="right" id="Gradle" order="3" />
-      <window_info anchor="bottom" id="Build" order="14" weight="0.58388156" />
-      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Gradle Console" order="6" side_tool="true" />
       <window_info anchor="right" id="Preview" order="8" weight="0.32980332" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.32843137" />
+      <window_info id="Build Variants" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="SQL Generator" order="8" weight="0.32838285" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17397882" />
+      <window_info anchor="bottom" id="Gradle Console" order="6" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.58388156" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.24962178" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.32730263" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32838285" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5060514" side_tool="true" weight="0.5620915" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.49394855" weight="0.56085527" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" weight="0.32838285" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32843137" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.3267974" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info id="Captures" order="7" weight="0.24962178" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32843137" />
       <window_info anchor="bottom" id="Android Profiler" order="0" show_stripe_button="false" weight="0.32843137" />
     </layout>
   </component>
@@ -467,20 +532,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/BienBanServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/models/dao/Dao_CanhSatGiaoThong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -587,13 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/public/js/custom.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9928">
@@ -655,13 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ad14/models/entities/BienBan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -687,16 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#2;n#form#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -791,6 +818,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="59" column="27" lean-forward="true" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="106" lean-forward="true" selection-start-line="38" selection-start-column="106" selection-end-line="38" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="55" column="68" lean-forward="true" selection-start-line="55" selection-start-column="68" selection-end-line="55" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ad14/utils/ThongBao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="88" lean-forward="true" selection-start-line="4" selection-start-column="88" selection-end-line="4" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/TrangChuServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
         </state>
       </provider>
     </entry>
