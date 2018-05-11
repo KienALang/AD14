@@ -606,10 +606,13 @@
 
                                             <div class="form-group">
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <button type="button" class="form-control btn btn-info"> Preview</button>
+                                                    <button type="button" class="form-control btn btn-info"> Preview
+                                                    </button>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <button type="button" class="form-control btn btn-success"> Tạo biên bản</button>
+                                                    <button type="button" class="form-control btn btn-success"> Tạo biên
+                                                        bản
+                                                    </button>
                                                 </div>
                                             </div>
 

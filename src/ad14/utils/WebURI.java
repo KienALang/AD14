@@ -24,9 +24,25 @@ public class WebURI {
     public static final String BIEN_BAN = "/bien-ban";
     public static final String BIEN_BAN_TAO_MOI = "/bien-ban/tao-moi";
 
+    // Quyet dinh
+    public static final String QUYET_DINH = "/quyet-dinh";
+    public static final String QUYET_DINH_TAO_MOI = "/quyet-dinh/tao-moi";
+
     // Hinh Anh
     public static final String HINH_ANH = "/hinh-anh";
 
     // Bao cao thong ke
     public static final String THONG_KE = "/thong-ke";
+
+    //Bien Lai
+    public static final String BIEN_LAI = "/bien-lai";
+
+    //Them Bien Lai
+    public static final String THEM_BIEN_LAI = "/them-bien-lai";
+
+    //Xoa Bien Lai
+    public static final String XOA_BIEN_LAI = "/xoa-bien-lai";
+
+    //Sua Bien Lai
+    public static final String SUA_BIEN_LAI = "/sua-bien-lai";
 }

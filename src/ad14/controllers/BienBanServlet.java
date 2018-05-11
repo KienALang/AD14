@@ -2,7 +2,6 @@ package ad14.controllers;
 
 import ad14.models.entities.CanhSatGiaoThong;
 import ad14.utils.JSPLocation;
-import ad14.utils.VaiTro;
 import ad14.utils.WebURI;
 
 import javax.servlet.ServletException;
@@ -22,7 +21,7 @@ public class BienBanServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // check the session of csgt if it's exists
         HttpSession session = request.getSession();
-        CanhSatGiaoThong csgt = (CanhSatGiaoThong)session.getAttribute("csgt");
+        CanhSatGiaoThong csgt = (CanhSatGiaoThong) session.getAttribute("csgt");
         String uri = request.getRequestURI();
         if (csgt != null) {
             switch (uri) {

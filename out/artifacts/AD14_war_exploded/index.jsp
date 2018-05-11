@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="public/images/favicon.ico" type="image/ico"/>
 
-    <title>AD14 | </title>
+    <title>AD14 | Trang Chủ</title>
 
     <!-- Bootstrap -->
     <link href="public/css/bootstrap.min.css" rel="stylesheet">
@@ -51,10 +51,11 @@
                 </div>
             </form>
             <p>
-                <% String key = (String) request.getAttribute("message");
-                    if (key != null) { %>
-                        <div class="alert alert-info"><%=key%></div>
-                    <% } %>
+                    <% String resMsg = (String) request.getAttribute("message");
+                    if (resMsg != null) { %>
+            <div class="alert alert-info"><%=resMsg%>
+            </div>
+            <% } %>
             </p>
         </div>
     </div>

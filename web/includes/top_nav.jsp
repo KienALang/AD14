@@ -23,9 +23,10 @@
                         <li><a href="javascript:;"> Profile</a></li>
                         <li>
                             <a href="#" id="ad14_logout"><i class="fa fa-sign-out pull-right"></i>
-                            <form action="<%=WebURI.DANG_XUAT%>" method="post">
-                                <input type="submit" value="Đăng xuất" style="padding: 0; background: none; border: none;">
-                            </form>
+                                <form action="<%=WebURI.DANG_XUAT%>" method="post">
+                                    <input type="submit" value="Đăng xuất"
+                                           style="padding: 0; background: none; border: none;">
+                                </form>
                             </a>
                         </li>
                     </ul>
