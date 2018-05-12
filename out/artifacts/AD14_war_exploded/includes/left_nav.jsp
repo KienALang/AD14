@@ -41,8 +41,9 @@
                 <ul class="nav side-menu">
                     <li><a><i class="fa fa-home"></i> Trang chủ <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="index.html">Trang chủ</a></li>
-                            <li><a href="#">Thông tin cá nhân</a></li>
+                            <li><a href="<%=request.getContextPath()%>/admin">Trang chủ</a></li>
+                            <li><a href="<%=request.getContextPath()%>/admin/edit">Thông tin admin</a></li>
+                            <li><a href="<%=request.getContextPath()%>/admin/add">Tạo mới admin</a></li>
                             <% if (csgt.getIdVaiTro() == VaiTro.SUPER_ADMIN){%>
                             <li><a href="#">Thông tin các admin</a></li>
                             <%}%>
@@ -78,7 +79,7 @@
 
                     <li><a><i class="fa fa-area-chart"></i> Báo cáo thống kê <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="#">Xem báo cáo</a></li>
+                            <li><a href="<%=request.getContextPath()%>/admin/thong-ke">Xem báo cáo</a></li>
                         </ul>
                     </li>
 

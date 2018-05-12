@@ -14,6 +14,20 @@
         <url-pattern>/admin</url-pattern>
     </servlet-mapping>
 
+    <servlet-mapping>
+        <servlet-name>AdminServlet</servlet-name>
+        <url-pattern>/admin/thong-tin</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>AdminServlet</servlet-name>
+        <url-pattern>/admin/add</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>AdminServlet</servlet-name>
+        <url-pattern>/admin/edit</url-pattern>
+    </servlet-mapping>
     <servlet>
         <servlet-name>AuthenticationServlet</servlet-name>
         <servlet-class>ad14.controllers.AuthenticationServlet</servlet-class>
@@ -40,23 +54,13 @@
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>AdminViewServlet</servlet-name>
-        <servlet-class>ad14.controllers.AdminViewServlet</servlet-class>
+        <servlet-name>StatisticalServlet</servlet-name>
+        <servlet-class>ad14.controllers.StatisticalServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>AdminViewServlet</servlet-name>
-        <url-pattern>/admin/image</url-pattern>
-    </servlet-mapping>
-
-    <servlet-mapping>
-        <servlet-name>AdminViewServlet</servlet-name>
-        <url-pattern>/admin/image/add</url-pattern>
-    </servlet-mapping>
-
-    <servlet-mapping>
-        <servlet-name>AdminViewServlet</servlet-name>
-        <url-pattern>/admin/image/edit</url-pattern>
+        <servlet-name>StatisticalServlet</servlet-name>
+        <url-pattern>/admin/thong-ke</url-pattern>
     </servlet-mapping>
 
     <welcome-file-list>
