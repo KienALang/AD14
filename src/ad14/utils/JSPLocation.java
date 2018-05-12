@@ -29,4 +29,7 @@ public class JSPLocation {
 
     //Sua Bien Lai
     public static final String SUA_BIEN_LAI = "/bien_lai/suabienlai.jsp";
+
+    // Bieu do thong ke
+    public static final String BIEU_DO = "/bieu_do/index.jsp";
 }

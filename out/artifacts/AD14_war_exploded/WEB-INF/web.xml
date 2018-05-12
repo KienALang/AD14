@@ -140,6 +140,15 @@
         <servlet-name>EditImageServlet</servlet-name>
         <url-pattern>/image/edit</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>BieuDoServlet</servlet-name>
+        <servlet-class>ad14.controllers.BieuDoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BieuDoServlet</servlet-name>
+        <url-pattern>/thong-ke</url-pattern>
+    </servlet-mapping>
 
 
     <welcome-file-list>

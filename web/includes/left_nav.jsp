@@ -77,7 +77,7 @@
                     <li><a><i class="fa fa-area-chart"></i> Báo cáo thống kê <span
                             class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="#">Xem báo cáo</a></li>
+                            <li><a href="<%=WebURI.THONG_KE%>">Xem biểu đồ</a></li>
                         </ul>
                     </li>
 

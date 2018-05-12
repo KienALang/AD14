@@ -12,24 +12,19 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "AdminServlet", urlPatterns = {WebURI.ADMIN})
-public class AdminServlet extends HttpServlet {
-
+@WebServlet(name = "BieuDoServlet", urlPatterns = {WebURI.THONG_KE})
+public class BieuDoServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        doGet(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // check the session of csgt if it's exists
         CanhSatGiaoThong csgt = (CanhSatGiaoThong) request.getSession().getAttribute("csgt");
 
-        if (csgt != null && csgt.getIdVaiTro() == VaiTro.ADMIN) {
-            response.sendRedirect(JSPLocation.ADMIN);
+        if (csgt != null && csgt.getIdVaiTro() == VaiTro.SUPER_ADMIN) {
+            response.sendRedirect(JSPLocation.BIEU_DO);
         } else {
             response.sendRedirect(WebURI.DANG_NHAP);
         }
-
     }
-
-
 }

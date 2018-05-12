@@ -7,34 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4da8e39-c242-418c-9f6c-94902eef3eb8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ad14/controllers/AddImageServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ad14/controllers/EditImageServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ad14/controllers/ImageViewServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ad14/models/dao/Dao_HinhAnh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/hanhvi_vipham/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/hanhvi_vipham/sua.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/hanhvi_vipham/them.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/hanhvi_vipham/timkiem.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/hanhvi_vipham/xoa.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/hinh_anh/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/hinh_anh/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/hinh_anh/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/public/images/media.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ad14/controllers/BieuDoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bieu_do/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/css/nprogress.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/fastclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/morris.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/nprogress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/raphael.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/models/entities/HinhAnh.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/models/entities/HinhAnh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/utils/WebURI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/classes/ad14/utils/WebURI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/includes/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/includes/head.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/includes/left_nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/includes/left_nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AD14_war_exploded/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AD14/ad14/models/entities/HinhAnh.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AD14/ad14/models/entities/HinhAnh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AD14/ad14/utils/WebURI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AD14/ad14/utils/WebURI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/models/entities/HinhAnh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/models/entities/HinhAnh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad14/utils/WebURI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/utils/WebURI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ad14/utils/JSPLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad14/utils/JSPLocation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/includes/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/includes/head.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/includes/left_nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/includes/left_nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,12 +74,21 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/login.jsp">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="left_nav.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/includes/left_nav.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+            <state relative-caret-position="332">
+              <caret line="79" column="59" selection-start-line="79" selection-start-column="59" selection-end-line="79" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/bieu_do/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="49" column="87" selection-start-line="49" selection-start-column="87" selection-end-line="49" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -122,12 +115,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ad14/models/services/serviceCSGT.java" />
-        <option value="$PROJECT_DIR$/src/ad14/models/services/ServiceCSGT.java" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/BienBanServlet.java" />
-        <option value="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" />
-        <option value="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" />
-        <option value="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/SuperAdminServlet.java" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/SuperAdminServlet.java" />
         <option value="$PROJECT_DIR$/web/bien_ban/index.jsp" />
@@ -138,7 +126,6 @@
         <option value="$PROJECT_DIR$/web/quyet_dinh/index.jsp" />
         <option value="$PROJECT_DIR$/web/quyet_dinh/tao_moi.jsp" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/QuyetDinhServlet.java" />
-        <option value="$PROJECT_DIR$/src/ad14/utils/JSPLocation.java" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/BienLaiServlet.java" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/ThemBienLaiServlet.java" />
         <option value="$PROJECT_DIR$/src/ad14/models/services/ServiceBienLai.java" />
@@ -158,11 +145,7 @@
         <option value="$PROJECT_DIR$/src/ad14/controllers/ViewImageServlet.java" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/EditImageServlet.java" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/AddImageServlet.java" />
-        <option value="$PROJECT_DIR$/web/includes/left_nav.jsp" />
-        <option value="$PROJECT_DIR$/web/includes/left_nav.jsp" />
-        <option value="$PROJECT_DIR$/web/includes/left_nav.jsp" />
         <option value="$PROJECT_DIR$/src/ad14/controllers/ImageViewServlet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/hanhvi_vipham.jsp" />
         <option value="$PROJECT_DIR$/web/hanhvi_vipham/index.jsp" />
         <option value="$PROJECT_DIR$/web/hanhvi_vipham/sua.jsp" />
@@ -173,6 +156,16 @@
         <option value="$PROJECT_DIR$/src/ad14/models/dao/Dao_HinhAnh.java" />
         <option value="$PROJECT_DIR$/web/hinh_anh/index.jsp" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java" />
+        <option value="$PROJECT_DIR$/src/ad14/utils/JSPLocation.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/ad14/controllers/BieuDoServlet.java" />
+        <option value="$PROJECT_DIR$/web/includes/left_nav.jsp" />
+        <option value="$PROJECT_DIR$/web/includes/left_nav.jsp" />
+        <option value="$PROJECT_DIR$/web/includes/left_nav.jsp" />
+        <option value="$PROJECT_DIR$/web/bieu_do/index.jsp" />
       </list>
     </option>
   </component>
@@ -203,23 +196,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AD14" type="58d84e3e:PackageViewProjectNode" />
-              <item name="AD14" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
               <item name="AD14" type="1abcf292:AndroidViewProjectNode" />
               <item name="AD14" type="e9137016:NonAndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AD14" type="58d84e3e:PackageViewProjectNode" />
+              <item name="AD14" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -236,7 +229,37 @@
             <path>
               <item name="AD14" type="b2602c69:ProjectViewProjectNode" />
               <item name="AD14" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AD14" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AD14" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ad14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AD14" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AD14" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ad14" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AD14" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AD14" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AD14" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AD14" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="bieu_do" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AD14" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AD14" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,11 +281,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\AD14\web\public\css" />
+      <recent name="E:\AD14\web\public\js" />
       <recent name="E:\AD14\web\public\images" />
       <recent name="E:\AD14\web\quyet_dinh" />
       <recent name="E:\AD14\src\ad14\models\entities" />
-      <recent name="E:\AD14\web\public\css" />
-      <recent name="E:\AD14\web\public\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -408,54 +431,123 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81858000" />
+    <option name="totallyTimeSpent" value="85251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5060514" side_tool="true" weight="0.5620915" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5014641" side_tool="true" weight="0.29457363" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" weight="0.32838285" />
-      <window_info id="Capture Tool" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="6" weight="0.24450952" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32843137" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49853587" weight="0.29457363" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32843137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49673203" visible="true" weight="0.23524962" />
+      <window_info id="Web" order="6" sideWeight="0.503268" side_tool="true" weight="0.23524962" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32843137" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Preview" order="8" weight="0.32980332" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.32843137" />
+      <window_info id="Build Variants" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="SQL Generator" order="8" weight="0.32838285" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.1762481" />
+      <window_info anchor="bottom" id="Gradle Console" order="6" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.58388156" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.24962178" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.32730263" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="7" weight="0.32838285" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32838285" />
+      <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" weight="0.32730263" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32843137" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.3267974" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.32843137" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.1762481" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="right" id="Preview" order="8" weight="0.32980332" />
-      <window_info id="Build Variants" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5060514" side_tool="true" weight="0.5620915" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.49394855" weight="0.56085527" />
-      <window_info id="Captures" order="7" weight="0.24962178" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32838285" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="SQL Generator" order="8" weight="0.32838285" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.32843137" />
-      <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="right" id="Gradle" order="3" />
-      <window_info anchor="bottom" id="Build" order="14" weight="0.58388156" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32843137" />
+      <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Commander" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Gradle Console" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.3267974" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info id="Captures" order="7" weight="0.24962178" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Android Profiler" order="0" show_stripe_button="false" weight="0.32843137" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Application Servers" order="10" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Database Console" order="17" visible="true" weight="0.32713178" />
+      <window_info anchor="bottom" id="Gradle Console" order="8" side_tool="true" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info id="Build Variants" order="0" side_tool="true" />
+      <window_info id="Image Layers" order="8" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49853587" weight="0.29457363" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32868218" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Android Profiler" order="0" show_stripe_button="false" weight="0.32843137" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5014641" side_tool="true" weight="0.29457363" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32838285" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Device File Explorer" order="1" side_tool="true" />
+      <window_info id="Captures" order="9" weight="0.24962178" />
+      <window_info anchor="bottom" id="Java Enterprise" order="18" />
+      <window_info anchor="bottom" id="Logcat" order="4" sideWeight="0.49394855" weight="0.56085527" />
+      <window_info anchor="bottom" id="Build" order="19" weight="0.58388156" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Find" order="2" visible="true" weight="0.32868218" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49834985" visible="true" weight="0.23524962" />
+      <window_info anchor="right" id="Database" order="8" weight="0.24450952" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info id="Web" order="7" sideWeight="0.50165015" side_tool="true" weight="0.24962178" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Preview" order="11" weight="0.32980332" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.39933994" />
+      <window_info anchor="bottom" id="SQL Generator" order="12" weight="0.32838285" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -498,41 +590,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/AuthenticationServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/XoaBienLaiServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/SuaBienLaiServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/BienLaiServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="33" column="82" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/models/dao/Dao_BienLaiThuPhat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="113" column="41" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ad14/models/services/ServiceBienLai.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -565,20 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="40" column="106" selection-start-line="40" selection-start-column="106" selection-end-line="40" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="65" column="51" lean-forward="true" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bien_ban/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="111" column="7" lean-forward="true" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -635,13 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="92" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -709,38 +745,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/utils/JSPLocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/includes/top_nav.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="135" column="27" lean-forward="true" selection-start-line="135" selection-start-column="27" selection-end-line="135" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ad14/utils/WebURI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/includes/left_nav.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="64" column="57" lean-forward="true" selection-start-line="64" selection-start-column="57" selection-end-line="64" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -911,6 +919,89 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/js/nprogress.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/js/fastclick.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/js/raphael.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/js/morris.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="65" column="51" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/css/nprogress.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bien_ban/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ad14/utils/WebURI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="149" column="30" lean-forward="true" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ad14/utils/JSPLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/AdminServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="65" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="25" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ad14/controllers/BieuDoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/includes/left_nav.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="79" column="59" selection-start-line="79" selection-start-column="59" selection-end-line="79" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bieu_do/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="49" column="87" selection-start-line="49" selection-start-column="87" selection-end-line="49" selection-end-column="87" />
         </state>
       </provider>
     </entry>
